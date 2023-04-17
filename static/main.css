@@ -1,0 +1,40 @@
+/* GLOBAL SET OF STYLES, MOSTLY CSS RESETTING */
+
+:root {
+	font-family: 'Ubuntu', -apple-system, system-ui, sans-serif;
+
+	--text-grey: #282828;
+	--valencia-red-light: #f56055;
+	--valencia-red: #da4238;
+
+	--valencia-dark-1: #c22f26;
+	--valencia-dark-2: #a81810;
+
+	color: var(--text-grey);
+}
+
+a {
+	color: var(--text-grey);
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.glass {
+	backdrop-filter: blur(8px);
+	background-color: rgba(221, 174, 171, 0.6);
+}

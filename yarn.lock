@@ -219,6 +219,11 @@
   dependencies:
     import-meta-resolve "^2.2.0"
 
+"@sveltejs/adapter-static@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-2.0.2.tgz#49afd27787fb73d789017d002a91031088494139"
+  integrity sha512-9wYtf6s6ew7DHUHMrt55YpD1FgV7oWql2IGsW5BXquLxqcY9vjrqCFo0TzzDpo+ZPZkW/v77k0eOP6tsAb8HmQ==
+
 "@sveltejs/kit@^1.5.0":
   version "1.15.5"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.15.5.tgz#d2bed8e56b063834771e61a8cdf87b079fe90fba"
@@ -249,6 +254,18 @@
     magic-string "^0.30.0"
     svelte-hmr "^0.15.1"
     vitefu "^0.2.4"
+
+"@sveltekit-i18n/base@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@sveltekit-i18n/base/-/base-1.2.1.tgz#5e97f1aaefb132858ecc7e5ad5efbb7849d6e224"
+  integrity sha512-F8gqG2+KAOeT0o2wYlUrW3TRCX7zaD7rBy/1CEVNw0irfw9TgFf/ODmhubkHHT3+6Zk+SMz8RNgeuffBfAMbJw==
+  optionalDependencies:
+    "@sveltekit-i18n/parser-default" "^1.x"
+
+"@sveltekit-i18n/parser-default@1.0.3", "@sveltekit-i18n/parser-default@^1.x":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@sveltekit-i18n/parser-default/-/parser-default-1.0.3.tgz#6ca5fee97d280e840c6222eb80e59da82a5d5524"
+  integrity sha512-HheveklTjp3hxpYQhoHfyA6B4bQaUeSV5MQf2usIv/58UF2jY/YqhCAWj9bDBjufbuZc5pSz4BXvdX3WVT+viA==
 
 "@types/cookie@^0.5.1":
   version "0.5.1"
@@ -1384,6 +1401,14 @@ svelte@^3.54.0:
   version "3.58.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.58.0.tgz#d3e6f103efd6129e51c7d709225ad3b4c052b64e"
   integrity sha512-brIBNNB76mXFmU/Kerm4wFnkskBbluBDCjx/8TcpYRb298Yh2dztS2kQ6bhtjMcvUhd5ynClfwpz5h2gnzdQ1A==
+
+sveltekit-i18n@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/sveltekit-i18n/-/sveltekit-i18n-2.2.2.tgz#5916c81c27e1773049c1201d574b0af12ba4ca23"
+  integrity sha512-6eygICleGCSL7elY7A3trF8XUhV+mlW56ZSoD0UUKXlw+Y6u0MTTHDq48u1LyY73SfnlbPHXgTarhTjZ0BvUKA==
+  dependencies:
+    "@sveltekit-i18n/base" "1.2.1"
+    "@sveltekit-i18n/parser-default" "1.0.3"
 
 text-table@^0.2.0:
   version "0.2.0"
