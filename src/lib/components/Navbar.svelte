@@ -7,10 +7,6 @@
 	const updateDocked = () => {
 		docked = window.scrollY < 10;
 	};
-
-	const changeLang = (event: any) => {
-		goto(`/${event.target.value}`);
-	};
 </script>
 
 <svelte:window on:scroll={updateDocked} />
@@ -23,11 +19,15 @@
 	</div>
 
 	<div class="lang">
-		<select on:change={changeLang} value={$locale}>
-			{#each $locales as value}
-				<option {value}>{$t(`lang.${value}`)}</option>
-			{/each}
-		</select>
+		{#each $locales as value}
+			<span
+				class="lang-select"
+				class:selected={$locale === value}
+				on:click={() => goto(`/${value}`)}
+			>
+				{$t(`lang.${value}`)}
+			</span>
+		{/each}
 	</div>
 </nav>
 
@@ -37,12 +37,12 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 2.25em;
+		height: 3.5em;
 		font-weight: 700;
 		transition: all 200ms ease;
 
 		margin: 0 auto;
-		width: min(700px, 100vw);
+		width: min(1500px, 100%);
 
 		display: flex;
 		flex-direction: row;
@@ -51,9 +51,10 @@
 
 		border-bottom-left-radius: 1em;
 		border-bottom-right-radius: 1em;
+		box-shadow: 5px 0 10px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	nav div {
+	nav > * {
 		padding: 0 20px;
 	}
 
@@ -67,10 +68,23 @@
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
+		margin: 5px 0;
 		padding: 10px;
 	}
 
 	a.active {
-		color: var(--valencia-dark-2);
+		color: white;
+		background: var(--valencia-dark-2);
+		border-radius: 10px;
+		box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+	}
+
+	.lang-select {
+		margin: 0 5px;
+		cursor: pointer;
+	}
+
+	.lang-select.selected {
+		color: var(--valencia-red);
 	}
 </style>

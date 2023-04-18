@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { t } from '$lib/utils/translations';
+	import LandingChip from '$lib/components/LandingChip.svelte';
+	import AccountCircle from 'svelte-material-icons/AccountCircle.svelte';
+	import Groups from 'svelte-material-icons/AccountGroup.svelte';
+	import Calendar from 'svelte-material-icons/Calendar.svelte';
+	import OfficeBuilding from 'svelte-material-icons/OfficeBuilding.svelte';
+
 	let docked = false;
 	let background: HTMLElement;
 	const updateDocked = () => {
@@ -31,6 +37,23 @@
 		<h2>
 			{$t('home.about-project')}
 		</h2>
+		<div class="chips">
+			<LandingChip title="uczniów" content="22">
+				<AccountCircle width={50} height="100%" />
+			</LandingChip>
+
+			<LandingChip title="uczniów" content="22">
+				<Groups width={50} height="100%" />
+			</LandingChip>
+
+			<LandingChip title="uczniów" content="22">
+				<Calendar width={50} height="100%" />
+			</LandingChip>
+			
+			<LandingChip title="uczniów" content="22">
+				<OfficeBuilding width={50} height="100%" />
+			</LandingChip>
+		</div>
 		<p>
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi obcaecati quae necessitatibus
 			labore tempore architecto laboriosam doloremque ea, asperiores veritatis ipsum recusandae
@@ -115,10 +138,23 @@
 		margin-bottom: -15px;
 	}
 
-	h2,
-	h3 {
+	h2 {
+		text-align: center;
+		font-size: 2em;
+	}
+
+	.header-content h2,
+	.header-content h3 {
 		font-weight: 500;
 		margin-right: 3.5rem;
+	}
+
+	.chips {
+		margin: 50px 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
 	}
 
 	div.content {
@@ -126,6 +162,10 @@
 		transition: border-radius 400ms ease;
 		border-top-right-radius: 0px;
 		border-top-left-radius: 0px;
+	}
+
+	div.content h2 {
+		margin-top: 20px;
 	}
 
 	div.content.docked {

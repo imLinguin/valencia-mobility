@@ -1,0 +1,44 @@
+<script lang="ts">
+	export let title: string;
+	export let content: string;
+</script>
+
+<div class="chip">
+	<slot />
+	<div class="meta">
+		<h3>{content}</h3>
+		<p>{title}</p>
+	</div>
+</div>
+
+<style>
+	div.chip {
+		color: white;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		padding: 10px;
+		border-radius: 15px;
+		background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
+		height: max(10vh, 10px);
+		max-width: 250px;
+		min-width: 150px;
+		box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.3);
+	
+		transition: transform 200ms ease;
+	}
+
+	div.chip:hover {
+		transform: scale(1.1);
+	}
+
+	div.meta {
+		margin-left: 20px;
+		width: max-content;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+	}
+</style>
