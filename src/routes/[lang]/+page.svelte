@@ -5,16 +5,23 @@
 	import Groups from 'svelte-material-icons/AccountGroup.svelte';
 	import Calendar from 'svelte-material-icons/Calendar.svelte';
 	import OfficeBuilding from 'svelte-material-icons/OfficeBuilding.svelte';
+	import { onMount } from 'svelte';
 
 	let docked = false;
 	let background: HTMLElement;
+	let content: HTMLElement;
 	const updateDocked = () => {
 		docked = window.scrollY < 10;
 		const force = Math.min(window.scrollY / 30, 7);
+		const opacity = Math.max(0.8, window.scrollY / 300);
 		if (background) {
 			background.style.filter = `blur(${force}px)`;
 		}
+		if (content) {
+			content.style.backgroundColor = `rgba(255, 255, 255, ${opacity})`;
+		}
 	};
+	onMount(updateDocked);
 </script>
 
 <svelte:window on:scroll={updateDocked} />
@@ -28,31 +35,33 @@
 	<div class="header">
 		<div class="header-content">
 			<h1>Erasmus+</h1>
-			<h2>Zespół Szkół Elektronicznych</h2>
+			<h2>{$t('home.subtitle')}</h2>
 			<h3>16.04.2023 - 06.05.2023</h3>
 		</div>
 	</div>
 
-	<div class="content glass" class:docked>
+	<div class="content glass" class:docked bind:this={content}>
 		<h2>
 			{$t('home.about-project')}
 		</h2>
 		<div class="chips">
-			<LandingChip title="uczniów" content="22">
-				<AccountCircle width={50} height="100%" />
-			</LandingChip>
+			<div class="wrapper">
+				<LandingChip title="uczniów" content="22">
+					<AccountCircle width={50} height="100%" />
+				</LandingChip>
 
-			<LandingChip title="uczniów" content="22">
-				<Groups width={50} height="100%" />
-			</LandingChip>
+				<LandingChip title="uczniów" content="22">
+					<Groups width={50} height="100%" />
+				</LandingChip>
 
-			<LandingChip title="uczniów" content="22">
-				<Calendar width={50} height="100%" />
-			</LandingChip>
-			
-			<LandingChip title="uczniów" content="22">
-				<OfficeBuilding width={50} height="100%" />
-			</LandingChip>
+				<LandingChip title="uczniów" content="22">
+					<Calendar width={50} height="100%" />
+				</LandingChip>
+
+				<LandingChip title="uczniów" content="22">
+					<OfficeBuilding width={50} height="100%" />
+				</LandingChip>
+			</div>
 		</div>
 		<p>
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi obcaecati quae necessitatibus
@@ -139,37 +148,62 @@
 	}
 
 	h2 {
-		text-align: center;
 		font-size: 2em;
 	}
 
 	.header-content h2,
 	.header-content h3 {
 		font-weight: 500;
+		text-align: right;
 		margin-right: 3.5rem;
 	}
 
 	.chips {
 		margin: 50px 0;
+	}
+
+	.chips .wrapper {
+		margin: 0 auto;
 		display: flex;
+		max-width: 1300px;
 		flex-direction: row;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 
 	div.content {
-		padding: 10px;
-		transition: border-radius 400ms ease;
+		padding: 10px 25px;
+		transition: all 400ms ease;
 		border-top-right-radius: 0px;
 		border-top-left-radius: 0px;
+		margin: 0;
 	}
 
 	div.content h2 {
-		margin-top: 20px;
+		position: fixed;
+		left: 50%;
+		font-size: 2.5em;
+		transform: translate(-50%, -50%);
+		top: 0;
+		color: white;
+		text-align: center;
+		text-shadow: 0 0 6px black;
 	}
 
 	div.content.docked {
 		border-top-right-radius: 20px;
 		border-top-left-radius: 20px;
+		margin: 0 15px;
+		padding: 10px;
+	}
+
+	@media screen and (max-width: 800px) {
+		.header {
+			font-size: 0.8em;
+		}
+
+		.chips .wrapper {
+			flex-direction: column;
+		}
 	}
 </style>

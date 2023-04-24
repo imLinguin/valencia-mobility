@@ -1,4 +1,23 @@
 {
-	"home": { "about-project": "About project" },
-	"nav": { "home": "Home", "gallery": "Gallery" }
+	"home": { "about-project": "About project", "subtitle": "Valencia, Spain" },
+	"nav": {
+		"home": "Home",
+		"gallery": "Gallery",
+		"participants": "Participants",
+		"preparations": "Preparations",
+		"traineeship": "Traineeship",
+		"institutions": "Institutions"
+	},
+	"meta": { "title": "Erasmus+ Traineeship ZSE Valencja 2023" },
+	"gallery": {
+		"closeTitle": "Close",
+		"zoomTitle": "Zoom",
+		"arrowPrevTitle": "Previous",
+		"arrowNextTitle": "Next",
+
+		"errorMsg": "The image cannot be loaded"
+	},
+	"footer": {
+		"projectCode": "Project UE  Erasmus+ no. 2022-1-PL01-KA121-VET-000061831"
+	}
 }

@@ -1,4 +1,23 @@
 {
-	"home": { "about-project": "O projekcie" },
-	"nav": { "home": "Główna", "gallery": "Galeria" }
+	"home": { "about-project": "O projekcie", "subtitle": "Walencja, Hiszpania" },
+	"nav": {
+		"home": "Główna",
+		"gallery": "Galeria",
+		"participants": "Uczestnicy",
+		"preparations": "Przygotowania",
+		"traineeship": "Praktyki",
+		"institutions": "Instytucje"
+	},
+	"meta": { "title": "Praktyki Erasmus+ ZSE Walencja 2023" },
+	"gallery": {
+		"closeTitle": "Zamknij",
+		"zoomTitle": "Przybliż",
+		"arrowPrevTitle": "Poprzednie",
+		"arrowNextTitle": "Następne",
+
+		"errorMsg": "Obraz nie mógł zostać załadowany"
+	},
+	"footer": {
+		"projectCode": "Projekt UE  Erasmus+ nr 2022-1-PL01-KA121-VET-000061831"
+	}
 }

@@ -277,6 +277,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
 
+"@types/photoswipe@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@types/photoswipe/-/photoswipe-4.1.2.tgz#3ddafb668bf6800f8dfab5bea2ba82dda879cd84"
+  integrity sha512-HA9TtCAQKToldgxRiyJ1DbsElg/cQV/SQ8COVjqIqghjy60Zxfh78E1WiFotthquqkS86nz13Za9wEbToe0svQ==
+
 "@types/pug@^2.0.6":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/pug/-/pug-2.0.6.tgz#f830323c88172e66826d0bde413498b61054b5a6"
@@ -1162,6 +1167,11 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
+
+photoswipe@^5.3.7:
+  version "5.3.7"
+  resolved "https://registry.yarnpkg.com/photoswipe/-/photoswipe-5.3.7.tgz#c67df67aaddb5705bcf8ff265bd2086f57805756"
+  integrity sha512-zsyLsTTLFrj0XR1m4/hO7qNooboFKUrDy+Zt5i2d6qjFPAtBjzaj/Xtydso4uxzcXpcqbTmyxDibb3BcSISseg==
 
 picocolors@^1.0.0:
   version "1.0.0"

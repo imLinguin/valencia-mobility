@@ -13,6 +13,11 @@
 	color: var(--text-grey);
 }
 
+body {
+	background: linear-gradient(to bottom, #fc8c83, #f56055);
+	background-repeat: no-repeat;
+}
+
 a {
 	color: var(--text-grey);
 }
@@ -37,5 +42,9 @@ p {
 
 .glass {
 	backdrop-filter: blur(8px);
-	background-color: rgba(240, 217, 215, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pswp__caption__center {
+	opacity: 0;
 }
