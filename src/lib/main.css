@@ -3,7 +3,7 @@
 :root {
 	font-family: 'Ubuntu', -apple-system, system-ui, sans-serif;
 
-	--text-grey: #282828;
+	--text-grey: #2b2b2b;
 	--valencia-red-light: #f56055;
 	--valencia-red: #da4238;
 
@@ -42,9 +42,15 @@ p {
 
 .glass {
 	backdrop-filter: blur(8px);
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .pswp__caption__center {
 	opacity: 0;
+}
+
+@supports (backdrop-filter: blur(10px)) {
+	.glass {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
 }

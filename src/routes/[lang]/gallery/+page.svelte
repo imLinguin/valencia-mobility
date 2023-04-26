@@ -3,12 +3,14 @@
 
 	let images: { thumbnail: string; width: number; height: number; original: string }[] = Array.from(
 		Array(10).keys()
-	).map((i) => ({
-		thumbnail: `/images/main-gallery/thumbnails/${i}.webp`,
-		width: 4000,
-		height: 3000,
-		original: `/images/main-gallery/original/${i}.jpg`
-	})).slice(1,-1);
+	)
+		.map((i) => ({
+			thumbnail: `/images/main-gallery/thumbnails/${i}.webp`,
+			width: 4000,
+			height: 3000,
+			original: `/images/main-gallery/original/${i}.jpg`
+		}))
+		.slice(1, -1);
 </script>
 
 <div>
@@ -18,7 +20,7 @@
 <style>
 	div {
 		margin: 2em auto;
-		width: 90vw;
+		max-width: 1500px;
 		color: rgba(255, 255, 255);
 	}
 	@media screen and (max-width: 800px) {

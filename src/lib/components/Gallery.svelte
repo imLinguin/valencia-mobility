@@ -18,7 +18,6 @@
 			zoomTitle: $t('gallery.zoomTitle'),
 			arrowPrevTitle: $t('gallery.arrowPrevTitle'),
 			arrowNextTitle: $t('gallery.arrowNextTitle'),
-
 			errorMsg: $t('gallery.errorMsg'),
 			pswpModule: () => import('photoswipe')
 		});
@@ -38,25 +37,36 @@
 			data-pswp-height={image.height}
 			data-cropped="true"
 			target="_blank"
-			rel="noreferrer"><img src={image.thumbnail} alt="Gallery element" /></a
+			rel="noreferrer"><div><img src={image.thumbnail} alt="Gallery element" /></div></a
 		>
 	{/each}
 </div>
 
 <style>
 	.pswp-gallery {
-		display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
 		text-align: center;
+		align-items: center;
+		justify-content: center;
 		background-color: rgba(255, 255, 255);
 		padding: 3em;
 		border-radius: 20px;
 	}
 
-	.pswp-gallery img {
+	.pswp-gallery div {
 		width: min(400px, 100%);
 		height: min(100%, 250px);
-		object-fit: cover;
 		border-radius: 20px;
-		padding: 0 2px;
+		margin: 5px;
+		overflow: hidden;
+	}
+
+	.pswp-gallery img {
+		object-fit: cover;
+		transition: transform 400ms ease;
+	}
+	.pswp-gallery img:hover {
+		transform: scale(1.02);
 	}
 </style>

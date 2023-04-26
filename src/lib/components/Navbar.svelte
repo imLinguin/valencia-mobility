@@ -10,6 +10,7 @@
 			name: 'traineeship',
 			subroutes: [
 				{ route: '/preparations', name: 'preparations' },
+				{ route: '/culture-exploration', name: 'culture-exploaration' },
 				{ route: '/in-companies', name: 'in-companies' }
 			]
 		},
@@ -26,7 +27,7 @@
 
 <!-- <svelte:window on:scroll={updateDocked} /> -->
 <nav class:docked class="glass">
-	<img src="/logos/project.webp" alt="">
+	<img src="/logos/project.webp" alt="" />
 	<div class="navigation">
 		{#each routes as route}
 			{#if route.route !== null}
@@ -44,7 +45,7 @@
 						{#each route.subroutes as subroute}
 							<li class:active={path === `/${$locale}${subroute.route}`}>
 								<a href={`/${$locale}${subroute.route}`}>
-									{subroute.name}
+									{$t(`nav.${subroute.name}`)}
 								</a>
 							</li>
 						{/each}
@@ -73,6 +74,7 @@
 	nav {
 		position: sticky;
 		top: 0;
+		z-index: 1000;
 		left: 0;
 		right: 0;
 		height: 3.5em;
@@ -107,6 +109,16 @@
 		border-bottom-right-radius: unset;
 	}
 
+	.navigation {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		align-self: center;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
 	.navigation > a {
 		opacity: 0.7;
 		transition: opacity 400ms ease;
@@ -131,6 +143,7 @@
 		left: 0;
 		border-radius: 10px;
 		background: white;
+		border: 1px solid lightgray;
 		padding: 0;
 		margin: 0;
 		list-style: none;
@@ -138,8 +151,11 @@
 	.navigation ul li {
 		opacity: 0.7;
 		padding: 5px;
+		transition: opacity 400ms ease;
 	}
-
+	.navigation ul li:hover {
+		opacity: 1;
+	}
 	.navigation ul :first-child {
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;

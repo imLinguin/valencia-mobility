@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 const languages = ['en', 'pl'];
@@ -16,7 +16,7 @@ const config = {
 		adapter: adapter(),
 
 		prerender: {
-			entries: languages.reduce((acc, locale) => [...acc, `/${locale}`, `/${locale}/gallery`], [])
+			entries: languages.reduce((acc, locale) => [...acc, `/${locale}`], [])
 		}
 	}
 };

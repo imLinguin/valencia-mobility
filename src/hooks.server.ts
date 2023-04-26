@@ -27,7 +27,6 @@ export const handle: Handle = async ({ event, resolve }) => {
 			// Set default locale if user preferred locale does not match
 			if (!supportedLocales.includes(locale)) locale = defaultLocale;
 
-			console.log(locale, supportedLocales);
 			// 301 redirect
 			return new Response(undefined, {
 				headers: { location: `/${locale}${pathname}` },

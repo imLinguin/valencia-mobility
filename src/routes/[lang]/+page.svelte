@@ -27,16 +27,14 @@
 <svelte:window on:scroll={updateDocked} />
 <div>
 	<div class="bg" bind:this={background}>
-		<img
-			src="https://images.unsplash.com/photo-1565969163767-b5139a5a2761?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-			alt=""
-		/>
+		<img src="/images/background.webp" alt="" />
 	</div>
 	<div class="header">
 		<div class="header-content">
 			<h1>Erasmus+</h1>
 			<h2>{$t('home.subtitle')}</h2>
-			<h3>16.04.2023 - 06.05.2023</h3>
+			<h3>Zespół Szkół Elektronicznych w Rzeszowie</h3>
+			<h3>16.04.2023 - 05.05.2023</h3>
 		</div>
 	</div>
 
@@ -61,52 +59,100 @@
 				<LandingChip title="uczniów" content="22">
 					<OfficeBuilding width={50} height="100%" />
 				</LandingChip>
+
+				<LandingChip title="uczniów" content="22">
+					<OfficeBuilding width={50} height="100%" />
+				</LandingChip>
 			</div>
 		</div>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi obcaecati quae necessitatibus
-			labore tempore architecto laboriosam doloremque ea, asperiores veritatis ipsum recusandae
-			tenetur sunt aut in impedit sint odit? Illo incidunt vel iste odit perferendis sit molestiae
-			non animi! Provident deserunt, culpa ut saepe ab dolor? Nemo sed debitis beatae velit
-			veritatis corrupti doloribus dolor perferendis consequatur ducimus quod placeat, at voluptatum
-			eum error. Voluptas soluta corrupti consectetur error totam, dolor, esse laboriosam
-			consequatur quasi pariatur accusamus earum consequuntur nulla. Voluptate, laudantium modi
-			provident earum eos cumque ab commodi delectus quasi facere quo consequuntur tempora quod
-			nihil quaerat odit adipisci accusamus accusantium quia aliquam eius vero exercitationem
-			repellat fuga. Eum sequi, magnam suscipit tenetur maiores est minima ipsa ullam expedita
-			labore nam sint id esse distinctio amet inventore rem officiis natus. Reprehenderit,
-			perspiciatis quo tenetur et eligendi dolorem nulla velit quis culpa corporis temporibus
-			aperiam id libero! Nihil doloribus quibusdam quis vero omnis culpa fugiat facilis ab minima
-			consequuntur, numquam modi dolore beatae rerum, maiores, odio quia harum nobis? Deserunt ipsum
-			ipsa optio laborum ducimus vel quaerat cumque reprehenderit, inventore quae nesciunt sit aut,
-			adipisci culpa voluptatibus officia sed incidunt. Nulla, fuga. Laboriosam nostrum repudiandae,
-			illum expedita modi eaque quae quibusdam soluta molestias fuga facilis suscipit esse excepturi
-			quo atque animi tempore, corporis, necessitatibus architecto veniam voluptas. Tempore omnis
-			necessitatibus a ratione, soluta eos labore quasi porro dignissimos ipsum at voluptatum
-			nostrum in maiores qui vel? Maxime architecto quia itaque dolorem, ullam amet quae dolore in
-			animi autem harum, voluptates provident modi aperiam libero, eveniet odit facilis. Quia magnam
-			nisi harum nulla impedit, doloremque voluptas, laborum quod, explicabo asperiores minus nam
-			molestiae! Repellendus eum voluptatem doloribus ad aperiam, molestias inventore repellat
-			dignissimos maiores minima nemo nulla magni veniam sit obcaecati omnis, quo non quis ipsum
-			illum corporis, sunt neque soluta cum? Cupiditate, ipsum vel earum veritatis nisi facere
-			rerum, deleniti recusandae minus expedita tenetur natus sed adipisci, quaerat perferendis
-			nesciunt totam id praesentium. Expedita ratione dolorem ab, maiores placeat fugiat distinctio
-			vel, numquam molestiae pariatur quia, veniam reiciendis ut? Optio tenetur magnam facere.
-			Dolorum blanditiis tempora excepturi laudantium sunt, facilis non ipsum esse maxime sint!
-			Harum, perspiciatis, tempora aliquam, earum ratione voluptatibus a commodi voluptatum magni
-			veritatis incidunt minima. Repellat eius architecto, expedita itaque reprehenderit ipsum, non
-			hic numquam recusandae ducimus officia consectetur ipsam inventore id, nobis doloremque
-			debitis consequuntur explicabo totam quis animi! Qui labore officia vel eos voluptatem
-			consectetur voluptatum iure aperiam quam magnam? Vel assumenda, consequatur perferendis
-			laborum eveniet numquam quas. Sed excepturi cum hic laboriosam dolor, sunt officia nemo error
-			praesentium, quam voluptatibus quia voluptate molestias sapiente beatae optio provident,
-			accusamus animi harum nostrum perspiciatis doloremque? Cum vel explicabo architecto aperiam
-			nisi quibusdam nihil excepturi praesentium magnam ab harum, earum odio nulla aspernatur!
-			Doloribus accusamus aspernatur amet earum necessitatibus voluptate molestiae, officiis
-			accusantium iusto eligendi et rerum inventore atque ad eveniet maiores temporibus ipsam
-			quidem, voluptates odit vero pariatur non rem. Est perferendis sit blanditiis reprehenderit,
-			molestiae architecto eos sapiente, suscipit cum ex culpa? Reiciendis, eligendi.
-		</p>
+		<div class="text-content">
+			<div class="aside-image-wrapper">
+				<div class="image-wrapper">
+					<img src="/images/valencia_zie.webp" alt="" />
+				</div>
+				<div>
+					<p>
+						Projekt UE Erasmus+ nr 2022-1-PL01-KA121-VET-000061831 ukierunkowany jest na potrzeby
+						zwiększenia szans zatrudnienia absolwentów Zespołu Szkól Elektronicznych. Celem projektu
+						jest kształtowanie zawodowych i społecznych postaw uczniów ZSE w obszarze europejskim w
+						tym dostosowanie szkoleń zawodowych do obecnych wymagań rynku pracy oraz podniesienie
+						efektywności szkolenia zawodowego poprzez szkolenia zawodowe nauczycieli przedmiotów
+						informatycznych i elektronicznych w zagranicznych instytucjach szkoleniowych i firmach.
+					</p>
+					<p>
+						W ramach projektu 22 uczniów Zespołu Szkół Elektronicznych w Rzeszowie odbędzie 3
+						tygodniową praktykę zawodowa w instytucjach szkoleniowych i firmach w sektorze IT,
+						elektroniki i automatyki w hiszpańskich zakładach pracy. W ramach projektu zorganizowany
+						również zostanie tygodniowy wyjazd 5-ciu nauczycieli Zespołu Szkół Elektronicznych w
+						Rzeszowie na szkolenie „job shadowing” do organizacji przyjmującej ESMOVIA w Walencji,
+						Hiszpania w celu podniesienia umiejętności i kompetencji zawodowych.
+					</p>
+					<p>
+						Celem projektu jest zapoznanie z hiszpańskim system kształcenia, zapoznanie ze strukturą
+						organizacyjną firm zatrudniających specjalistów w branży elektronicznej i
+						informatycznej, doskonalenie umiejętności językowych, wymiana doświadczeń z innymi
+						trenerami w dziedzinie szkolnictwa zawodowego, zapoznanie z organizacją zewnętrznych
+						egzaminów zawodowych, z treścią programową przedmiotów zawodowych, innowacyjnymi
+						metodami i technikami prowadzenia szkoleń zawodowych, a także zapoznanie ze środkami
+						dydaktycznymi i sposobami ich wykorzystania w procesie kształcenia.
+					</p>
+
+					<p>
+						Praktyki dla uczniów będą organizowane w firmach i instytucjach, które posiadają już
+						doświadczenie w szkoleniu specjalistów z zakresu współczesnych technologii oraz
+						przeprowadzaniu wymiany i stażu w ramach projektów UE. 22-osobowej grupie uczniów będzie
+						towarzyszyć 2 nauczycieli/opiekunów.
+					</p>
+					<p>
+						Poprzez realizację projektu, analizę i upowszechnianie jego wyników nauczyciele wzbogacą
+						się o nowe doświadczenia, które pozwolą ulepszyć metody nauczania młodzieży reagując na
+						dynamicznie rozwijający się rynek pracy zatrudniający specjalistów w branży
+						elektronicznej i informatycznej.
+					</p>
+					<p>
+						Uczniowie odbywający praktykę zagraniczną w ramach projektu zdobędą wiedzę oraz cenne,
+						poszukiwane i wymagane przez pracodawców doświadczenie, które stanie się ważnym atutem w
+						znalezieniu pracy w naszym regionie.
+					</p>
+				</div>
+			</div>
+			<h3>{$t("home.project-goals")}</h3>
+			<ol>
+				<li>
+					Zwiększenie mobilności oraz doświadczenia zawodowego uczniów z ZSE poprzez udział w
+					3-tygodniowych zagranicznych praktykach zawodowych z elektroniki, informatyki i
+					automatyki.
+				</li>
+				<li>
+					Poprawa kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości języków
+					obcych uczniów ZSE w trakcie przygotowania do mobilności i podczas stażu za granicą.
+				</li>
+
+				<li>
+					Rozwój zawodowy kadry ZSE poprzez przygotowanie organizacyjno-merytoryczne i udział
+					nauczycieli przedmiotów zawodowych w zagranicznych szkoleniach.
+				</li>
+
+				<li>
+					Wzmocnienie kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości
+					języków obcych nauczycieli ZSE poprzez przygotowanie i udział w zagranicznym stażu
+					zawodowym.
+				</li>
+				<li>
+					Wspieranie jakości, transparentności i uznawania efektów uczenia się uczniów i nauczycieli
+					ZSE w okresach mobilności za granicą przy wykorzystaniu europejskich narzędzi.
+				</li>
+				<li>
+					Kontynuacja i rozwój bezpośredniej współpracy ZSE z europejskimi instytucjami szkolenia
+					zawodowego w zakresie realizacji wysokiej jakości projektów mobilności i doskonalenia
+					procesu kształcenia.
+				</li>
+				<li>
+					Poprawa wyników egzaminu z przygotowania zawodowego w Zespole Szkół Elektronicznych w
+					Rzeszowie.
+				</li>
+			</ol>
+		</div>
 	</div>
 </div>
 
@@ -167,6 +213,7 @@
 		display: flex;
 		max-width: 1300px;
 		flex-direction: row;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-evenly;
 	}
@@ -180,14 +227,42 @@
 	}
 
 	div.content h2 {
-		position: fixed;
-		left: 50%;
+		position: absolute;
 		font-size: 2.5em;
 		transform: translate(-50%, -50%);
-		top: 0;
 		color: white;
+		left: 50%;
+		top: -10px;
+		background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
+		border-radius: 10px;
+		width: fit-content;
+		padding: 10px 90px;
 		text-align: center;
-		text-shadow: 0 0 6px black;
+	}
+
+	div.content h3 {
+		margin: 0 auto;
+		font-size: 2em;
+		color: white;
+		background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
+		border-radius: 10px;
+		width: fit-content;
+		padding: 10px 90px;
+		text-align: center;
+	}
+
+	ol li {
+		padding: 0.2em 0;
+	}
+
+	div.text-content {
+		max-width: 1440px;
+		margin: 3em auto;
+		text-align: left;
+	}
+
+	div.text-content p {
+		margin: 1em 0;
 	}
 
 	div.content.docked {
@@ -197,12 +272,40 @@
 		padding: 10px;
 	}
 
+	div.text-content div.aside-image-wrapper img {
+		object-fit: cover;
+		width: 400px;
+		transition: transform 400ms ease;
+	}
+
+	div.text-content div.image-wrapper {
+		border-radius: 20px;
+		overflow: hidden;
+		height: 400px;
+		min-width: 400px;
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+		margin: 20px;
+		margin-right: 50px;
+	}
+	div.text-content div.aside-image-wrapper img:hover {
+		transform: scale(1.05);
+	}
+
+	div.text-content div.aside-image-wrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
 	@media screen and (max-width: 800px) {
 		.header {
 			font-size: 0.8em;
 		}
 
 		.chips .wrapper {
+			flex-direction: column;
+		}
+		div.text-content div.aside-image-wrapper {
 			flex-direction: column;
 		}
 	}

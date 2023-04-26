@@ -1,14 +1,25 @@
 {
-	"home": { "about-project": "O projekcie", "subtitle": "Walencja, Hiszpania" },
+	"home": {
+		"about-project": "O projekcie",
+		"subtitle": "Walencja, Hiszpania",
+		"project-goals": "Cele Projektu"
+	},
 	"nav": {
 		"home": "Główna",
 		"gallery": "Galeria",
 		"participants": "Uczestnicy",
 		"preparations": "Przygotowania",
 		"traineeship": "Praktyki",
-		"institutions": "Instytucje"
+		"institutions": "Instytucje",
+		"in-companies": "W firmach"
 	},
 	"meta": { "title": "Praktyki Erasmus+ ZSE Walencja 2023" },
+	"participants": {
+		"automation-tech": "Automatycy",
+		"electronic-tech": "Elektronicy",
+		"it-tech": "Informatycy",
+		"tutors": "Opiekunowie"
+	},
 	"gallery": {
 		"closeTitle": "Zamknij",
 		"zoomTitle": "Przybliż",

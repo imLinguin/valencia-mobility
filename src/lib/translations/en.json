@@ -1,14 +1,25 @@
 {
-	"home": { "about-project": "About project", "subtitle": "Valencia, Spain" },
+	"home": {
+		"about-project": "About project",
+		"subtitle": "Valencia, Spain",
+		"project-goals": "Project Goals"
+	},
 	"nav": {
 		"home": "Home",
 		"gallery": "Gallery",
 		"participants": "Participants",
 		"preparations": "Preparations",
 		"traineeship": "Traineeship",
-		"institutions": "Institutions"
+		"institutions": "Institutions",
+		"in-companies": "In companies"
 	},
 	"meta": { "title": "Erasmus+ Traineeship ZSE Valencja 2023" },
+	"participants": {
+		"automation-tech": "Automation Technicians",
+		"electronic-tech": "Electronic Technicians",
+		"it-tech": "IT Technicians",
+		"tutors": "Tutors"
+	},
 	"gallery": {
 		"closeTitle": "Close",
 		"zoomTitle": "Zoom",
