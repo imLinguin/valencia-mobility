@@ -57,8 +57,8 @@
 	}
 
 	.participants-group:hover > .images :nth-child(1) {
-		left: -10px;
-		top: 30px;
+		left: -20px;
+		top: 20px;
 		transform: rotate(-5deg);
 	}
 	.participants-group > .images :nth-child(2) {
@@ -83,8 +83,8 @@
 		top: 30px;
 	}
 	.participants-group:hover > .images :nth-child(4) {
-		left: 230px;
-		top: 20px;
+		left: 250px;
+		top: -10px;
 		transform: rotate(7deg);
 	}
 	.participants-group > .images :nth-child(5) {

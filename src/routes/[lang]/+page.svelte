@@ -73,7 +73,7 @@
 				<div>
 					<p>
 						Projekt UE Erasmus+ nr 2022-1-PL01-KA121-VET-000061831 ukierunkowany jest na potrzeby
-						zwiększenia szans zatrudnienia absolwentów Zespołu Szkól Elektronicznych. Celem projektu
+						zwiększenia szans zatrudnienia absolwentów Zespołu Szkół Elektronicznych. Celem projektu
 						jest kształtowanie zawodowych i społecznych postaw uczniów ZSE w obszarze europejskim w
 						tym dostosowanie szkoleń zawodowych do obecnych wymagań rynku pracy oraz podniesienie
 						efektywności szkolenia zawodowego poprzez szkolenia zawodowe nauczycieli przedmiotów
@@ -181,8 +181,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		text-align: right;
-		justify-content: center;
+		text-align: center;
+		justify-content: start;
 		text-shadow: 0 0 5px black;
 		font-size: 1.2rem;
 		text-transform: uppercase;
@@ -200,8 +200,6 @@
 	.header-content h2,
 	.header-content h3 {
 		font-weight: 500;
-		text-align: right;
-		margin-right: 3.5rem;
 	}
 
 	.chips {
