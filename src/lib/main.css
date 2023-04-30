@@ -45,6 +45,15 @@ p {
 	background-color: rgba(255, 255, 255, 1);
 }
 
+.styled-header {
+	color: white;
+	background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
+	border-radius: 10px;
+	width: fit-content;
+	padding: 10px 90px;
+	text-align: center;
+}
+
 .pswp__caption__center {
 	opacity: 0;
 }

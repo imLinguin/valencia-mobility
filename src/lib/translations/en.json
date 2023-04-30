@@ -20,6 +20,25 @@
 		"it-tech": "IT Technicians",
 		"tutors": "Tutors"
 	},
+	"institutions": {
+		"organizers-header": "Organizers",
+		"companies": "Hosting companies",
+		"descriptions": {
+			"Zespół Szkół Elektronicznych w Rzeszowie": "ZSE",
+			"ESMOVIA Training and Mobility": "ESMOVIA Training and Mobility desc",
+			"Microarea Software": "Microarea Software desc",
+			"MD Equipos Tecnológicos": "MD Equipos Tecnológicos desc",
+			"Industa": "Industa desc",
+			"RELMS": "RELMS desc",
+			"IES Districte Marítim": "IES Districte Marítim desc",
+			"Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación": "Baukunst",
+			"Seymeval": "Seymeval desc",
+			"nadunet": "nadunet desc",
+			"OMMVI": "OMMVI desc",
+			"Goblue": "Goblue desc",
+			"Instituto Inter": "Instituto Inter desc"
+		}
+	},
 	"gallery": {
 		"closeTitle": "Close",
 		"zoomTitle": "Zoom",

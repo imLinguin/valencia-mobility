@@ -37,7 +37,8 @@
 			data-pswp-height={image.height}
 			data-cropped="true"
 			target="_blank"
-			rel="noreferrer"><div><img src={image.thumbnail} alt="Gallery element" /></div></a
+			rel="noreferrer"
+			><div><img src={image.thumbnail} alt="Gallery element" loading="lazy" /></div></a
 		>
 	{/each}
 </div>

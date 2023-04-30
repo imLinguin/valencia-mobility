@@ -12,7 +12,7 @@
 <a class="participants-group" on:click>
 	<div class="images">
 		{#each images as image}
-			<img src={image} alt="" />
+			<img src={image ?? '/images/person.jpg'} alt="" />
 		{/each}
 	</div>
 

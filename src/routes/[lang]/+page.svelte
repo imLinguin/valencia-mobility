@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="content glass" class:docked bind:this={content}>
-		<h2>
+		<h2 class="styled-header">
 			{$t('home.about-project')}
 		</h2>
 		<div class="chips">
@@ -116,7 +116,7 @@
 					</p>
 				</div>
 			</div>
-			<h3>{$t("home.project-goals")}</h3>
+			<h3 class="styled-header">{$t('home.project-goals')}</h3>
 			<ol>
 				<li>
 					Zwiększenie mobilności oraz doświadczenia zawodowego uczniów z ZSE poprzez udział w
@@ -228,25 +228,13 @@
 		position: absolute;
 		font-size: 2.5em;
 		transform: translate(-50%, -50%);
-		color: white;
 		left: 50%;
 		top: -10px;
-		background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
-		border-radius: 10px;
-		width: fit-content;
-		padding: 10px 90px;
-		text-align: center;
 	}
 
 	div.content h3 {
 		margin: 0 auto;
 		font-size: 2em;
-		color: white;
-		background: linear-gradient(to bottom left, var(--valencia-red-light), var(--valencia-dark-1));
-		border-radius: 10px;
-		width: fit-content;
-		padding: 10px 90px;
-		text-align: center;
 	}
 
 	ol li {

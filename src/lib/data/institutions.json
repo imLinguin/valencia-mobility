@@ -1,0 +1,68 @@
+{
+	"organizers": [
+		{
+			"logo": "/logos/zse.webp",
+			"title": "Zespół Szkół Elektronicznych w Rzeszowie",
+			"url": "https://elektronik.rzeszow.pl"
+		},
+		{
+			"logo": "/logos/esmovia.jpg",
+			"title": "ESMOVIA Training and Mobility",
+			"url": "https://esmovia.es"
+		}
+	],
+	"hostingCompanies": [
+		{
+			"logo": "/logos/esmovia.jpg",
+			"title": "ESMOVIA Training and Mobility",
+			"url": "https://esmovia.es"
+		},
+		{
+			"logo": "/logos/companies/microarea.png",
+			"title": "Microarea Software",
+			"url": "https://microarea.es"
+		},
+		{
+			"logo": "/logos/companies/mdelectro.png",
+			"title": "MD Equipos Tecnológicos",
+			"url": "https://mdelectro.es/"
+		},
+		{
+			"title": "Industa",
+			"url": "http://industa.com"
+		},
+		{
+			"title": "RELMS",
+			"url": "https://relms.es"
+		},
+		{
+			"title": "IES Districte Marítim",
+			"url": "https://portal.edu.gva.es/"
+		},
+		{
+			"logo": "/logos/companies/baukunst.png",
+			"title": "Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación",
+			"url": "https://baukunst.es/quienessomos/"
+		},
+		{
+			"title": "Seymeval",
+			"url": "http://www.seymeval.es"
+		},
+		{
+			"title": "nadunet",
+			"url": "https://nadunet.es/"
+		},
+		{
+			"title": "OMMVI",
+			"url": "https://ommvi.com/"
+		},
+		{
+			"title": "Goblue",
+			"url": "https://gobluemobility.com/es/"
+		},
+		{
+			"title": "Instituto Inter",
+			"url": "https://institutointer.com"
+		}
+	]
+}
