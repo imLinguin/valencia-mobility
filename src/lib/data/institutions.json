@@ -28,14 +28,17 @@
 			"url": "https://mdelectro.es/"
 		},
 		{
+			"logo": "/logos/companies/industa.png",
 			"title": "Industa",
 			"url": "http://industa.com"
 		},
 		{
+			"logo":"/logos/companies/rel.png",
 			"title": "RELMS",
 			"url": "https://relms.es"
 		},
 		{
+			"logo":"/logos/companies/ies.jpg",
 			"title": "IES Districte Marítim",
 			"url": "https://portal.edu.gva.es/"
 		},
@@ -45,22 +48,27 @@
 			"url": "https://baukunst.es/quienessomos/"
 		},
 		{
+			"logo":"/logos/companies/seymeval.png",
 			"title": "Seymeval",
 			"url": "http://www.seymeval.es"
 		},
 		{
+			"logo":"/logos/companies/nadunet.png",
 			"title": "nadunet",
 			"url": "https://nadunet.es/"
 		},
 		{
+			"logo":"/logos/companies/ommvi.png",
 			"title": "OMMVI",
 			"url": "https://ommvi.com/"
 		},
 		{
+			"logo":"/logos/companies/gobroom.svg",
 			"title": "Goblue",
 			"url": "https://gobluemobility.com/es/"
 		},
 		{
+			"logo":"/logos/companies/instituto.png",
 			"title": "Instituto Inter",
 			"url": "https://institutointer.com"
 		}
