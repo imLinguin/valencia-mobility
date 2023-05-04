@@ -244,6 +244,7 @@
 	div.text-content {
 		max-width: 1440px;
 		margin: 3em auto;
+		font-size: 1.05em;
 		text-align: left;
 	}
 
