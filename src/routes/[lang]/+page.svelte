@@ -48,19 +48,19 @@
 					<AccountCircle width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="uczniów" content="22">
+				<LandingChip title="opiekunów" content="5">
 					<Groups width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="uczniów" content="22">
+				<LandingChip title="dni praktyk" content="15">
 					<Calendar width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="uczniów" content="22">
+				<LandingChip title="firm" content="12">
 					<OfficeBuilding width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="uczniów" content="22">
+				<LandingChip title="aktywności kulturowych" content="6">
 					<OfficeBuilding width={50} height="100%" />
 				</LandingChip>
 			</div>

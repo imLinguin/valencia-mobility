@@ -36,7 +36,7 @@
 
 	div.meta {
 		margin-left: 20px;
-		width: max-content;
+		width: 50%;
 		display: flex;
 		flex-direction: column;
 		align-items: start;

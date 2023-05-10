@@ -30,7 +30,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 			// 301 redirect
 			return new Response(undefined, {
 				headers: { location: `/${locale}${pathname}` },
-				status: 301
+				status: 302
 			});
 		}
 

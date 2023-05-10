@@ -9,7 +9,7 @@
 	];
 </script>
 
-<a class="participants-group" on:click>
+<span class="participants-group" on:click>
 	<div class="images">
 		{#each images as image}
 			<img src={image ?? '/images/person.jpg'} alt="" />
@@ -17,7 +17,7 @@
 	</div>
 
 	<h2>{title}</h2>
-</a>
+</span>
 
 <style>
 	img {

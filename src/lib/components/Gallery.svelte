@@ -50,9 +50,6 @@
 		text-align: center;
 		align-items: center;
 		justify-content: center;
-		background-color: rgba(255, 255, 255);
-		padding: 3em;
-		border-radius: 20px;
 	}
 
 	.pswp-gallery div {

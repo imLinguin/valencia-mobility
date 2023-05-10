@@ -132,10 +132,12 @@
 	}
 
 	.participant-details .participant-name {
+		font-weight: 700;
 		margin: 10px 0;
 	}
 
 	.participant-details .participant-lastname {
+		color: var(--valencia-red);
 		font-weight: 700;
 	}
 

@@ -10,7 +10,7 @@
 			name: 'traineeship',
 			subroutes: [
 				{ route: '/preparations', name: 'preparations' },
-				{ route: '/culture-exploration', name: 'culture-exploaration' },
+				{ route: '/culture-exploration', name: 'culture-exploration' },
 				{ route: '/in-companies', name: 'in-companies' }
 			]
 		},
