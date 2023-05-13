@@ -170,7 +170,7 @@
 
 	.bg img {
 		width: 100%;
-		height: 100%;
+		height: max(100vh, 600px);
 		object-fit: cover;
 	}
 
@@ -217,6 +217,7 @@
 	}
 
 	div.content {
+		position: relative;
 		padding: 10px 25px;
 		transition: all 400ms ease;
 		border-top-right-radius: 0px;
@@ -272,7 +273,6 @@
 		min-width: 400px;
 		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
 		margin: 20px;
-		margin-right: 50px;
 	}
 	div.text-content div.aside-image-wrapper img:hover {
 		transform: scale(1.05);
@@ -287,6 +287,12 @@
 	@media screen and (max-width: 800px) {
 		.header {
 			font-size: 0.8em;
+		}
+
+		.bg img {
+			width: 100%;
+			height: max(100vh, 600px);
+			object-fit: contain;
 		}
 
 		.chips .wrapper {

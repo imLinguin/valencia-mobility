@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Image } from '$lib/types';
 	import { t } from '$lib/utils/translations';
 
 	//@ts-ignore
@@ -7,7 +8,7 @@
 	import { onMount } from 'svelte';
 
 	export let galleryId: string;
-	export let images: { thumbnail: string; width: number; height: number; original: string }[];
+	export let images: Image[];
 	let lightbox: PhotoSwipe;
 
 	onMount(() => {
@@ -53,14 +54,17 @@
 	}
 
 	.pswp-gallery div {
-		width: min(400px, 100%);
-		height: min(100%, 250px);
+		height: 100%;
 		border-radius: 20px;
-		margin: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		overflow: hidden;
 	}
 
 	.pswp-gallery img {
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
 		transition: transform 400ms ease;
 	}

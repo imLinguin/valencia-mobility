@@ -42,6 +42,7 @@ p {
 
 .glass {
 	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -58,7 +59,11 @@ p {
 	opacity: 0;
 }
 
-@supports (backdrop-filter: blur(10px)) {
+#main-gallery > * {
+	margin: 5px;
+}
+
+@supports (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px)) {
 	.glass {
 		background-color: rgba(255, 255, 255, 0.8);
 	}

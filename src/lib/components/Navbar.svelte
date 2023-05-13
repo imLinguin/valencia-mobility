@@ -72,7 +72,7 @@
 
 <style>
 	nav {
-		position: sticky;
+		position: fixed;
 		top: 0;
 		z-index: 1000;
 		left: 0;
@@ -195,5 +195,12 @@
 
 	.lang-select.selected {
 		color: var(--valencia-red);
+	}
+
+	@media screen and (max-width: 1024px) {
+		.navigation,
+		.lang {
+			display: none;
+		}
 	}
 </style>

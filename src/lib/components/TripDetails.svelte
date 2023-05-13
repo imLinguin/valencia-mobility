@@ -1,9 +1,27 @@
 <script lang="ts">
+	import type { Image } from '$lib/types';
+	import Gallery from './Gallery.svelte';
+
 	export let title: string;
-	export let photos: string[] = [
-		'/images/background.webp',
-		'/images/background.webp',
-		'/images/background.webp'
+	export let photos: Image[] = [
+		{
+			thumbnail: '/images/background.webp',
+			width: 3840,
+			height: 2160,
+			original: '/images/background.webp'
+		},
+		{
+			thumbnail: '/images/background.webp',
+			width: 3840,
+			height: 2160,
+			original: '/images/background.webp'
+		},
+		{
+			thumbnail: '/images/background.webp',
+			width: 3840,
+			height: 2160,
+			original: '/images/background.webp'
+		}
 	];
 </script>
 
@@ -22,9 +40,7 @@
 			</slot>
 		</div>
 		<div class="photos">
-			{#each photos as photo}
-				<img src={photo} alt="" />
-			{/each}
+			<Gallery galleryId={title} images={photos} />
 		</div>
 	</div>
 </div>
@@ -43,10 +59,11 @@
 	.content {
 		display: flex;
 		flex-direction: row;
+		margin-top: 2em;
 	}
 
-	.photos {
-		display: grid;
+	:global(.trip .pswp-gallery) {
+		display: grid !important;
 		grid-template-columns: repeat(3, 170px);
 		gap: 10px;
 		grid-template-areas:
@@ -54,23 +71,20 @@
 			'second third forth';
 	}
 
-	img {
-		border-radius: 10px;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
+	.description p {
+		margin-bottom: 1em;
 	}
 
-	.photos :nth-child(1) {
+	:global(.trip .pswp-gallery > :nth-child(1)) {
 		grid-area: first;
 	}
-	.photos :nth-child(2) {
+	:global(.trip .pswp-gallery > :nth-child(2)) {
 		grid-area: second;
 	}
-	.photos :nth-child(3) {
+	:global(.trip .pswp-gallery > :nth-child(3)) {
 		grid-area: third;
 	}
-	.photos :nth-child(4) {
+	:global(.trip .pswp-gallery > :nth-child(4)) {
 		grid-area: forth;
 	}
 </style>
