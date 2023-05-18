@@ -12,14 +12,34 @@
 		"traineeship": "Praktyki",
 		"institutions": "Instytucje",
 		"in-companies": "W firmach",
-		"culture-exploration": "Poznawanie kultury"
+		"culture-exploration": "Aktywności kulturowe i czas wolny"
 	},
 	"meta": { "title": "Praktyki Erasmus+ ZSE Walencja 2023" },
 	"participants": {
 		"automation-tech": "Automatycy",
 		"electronic-tech": "Elektronicy",
 		"it-tech": "Informatycy",
-		"tutors": "Opiekunowie"
+		"tutors": "Opiekunowie",
+		"involved": "Wszyscy zaangażowani"
+	},
+	"preparations": {
+		"english": {
+			"title": "Język Angielski"
+		},
+		"spanish": {
+			"title": "Język Hiszpański"
+		},
+		"organizational-meeting": {
+			"title": "Spotkania Organizacyjne"
+		}
+	},
+	"culture": {
+		"city-tour": {
+			"title": "Zwiedzanie miasta"
+		},
+		"bioparc": {
+			"title": "Biopark"
+		}
 	},
 	"institutions": {
 		"organizers-header": "Organizatorzy",

@@ -1,17 +1,10 @@
 <script lang="ts">
 	import Gallery from '$lib/components/Gallery.svelte';
+	import galleryData from '$lib/data/main-gallery';
+	import type { Image } from '$lib/types';
 	import { t } from '$lib/utils/translations';
 
-	let images: { thumbnail: string; width: number; height: number; original: string }[] = Array.from(
-		Array(10).keys()
-	)
-		.map((i) => ({
-			thumbnail: `/images/main-gallery/thumbnails/${i}.webp`,
-			width: 4000,
-			height: 3000,
-			original: `/images/main-gallery/original/${i}.jpg`
-		}))
-		.slice(1, -1);
+	let images: Image[] = galleryData;
 </script>
 
 <div>
@@ -28,6 +21,10 @@
 		color: rgba(255, 255, 255);
 		padding: 10px;
 		border-radius: 20px;
+	}
+	:global(.pswp-gallery#main-gallery div) {
+		width: 400px;
+		height: 250px;
 	}
 
 	.styled-header {

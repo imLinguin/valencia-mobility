@@ -12,14 +12,15 @@
 		"traineeship": "Traineeship",
 		"institutions": "Institutions",
 		"in-companies": "In companies",
-		"culture-exploration": "Exploring the culture"
+		"culture-exploration": "Cultural activities and free time"
 	},
-	"meta": { "title": "Erasmus+ Traineeship ZSE Valencja 2023" },
+	"meta": { "title": "Erasmus+ Traineeship ZSE Valencia 2023" },
 	"participants": {
 		"automation-tech": "Automation Technicians",
 		"electronic-tech": "Electronic Technicians",
 		"it-tech": "IT Technicians",
-		"tutors": "Tutors"
+		"tutors": "Tutors",
+		"involved": "Everyone involved"
 	},
 	"institutions": {
 		"organizers-header": "Organizers",

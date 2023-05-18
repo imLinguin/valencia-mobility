@@ -18,6 +18,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+body * {
+	box-sizing: border-box;
+}
+
 a {
 	color: var(--text-grey);
 }

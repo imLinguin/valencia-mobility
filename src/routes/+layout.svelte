@@ -17,7 +17,7 @@
 </div>
 
 <style>
-main {
-	padding-top: 3.5em;
-}
+	main {
+		padding-top: 3.5em;
+	}
 </style>

@@ -1,29 +1,38 @@
 <script lang="ts">
 	import ParticipantsGroup from '$lib/components/ParticipantsGroup.svelte';
 	import { t } from '$lib/utils/translations';
-	import { afterUpdate, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-	import participants from '$lib/data/participants.json';
+	import participants from '$lib/data/participants';
+	import type { Participant, ParticipantGroups } from '$lib/types';
 
-	type ParticipantsGroups = keyof typeof participants;
-	const participantsGroups: ParticipantsGroups[] = [
+	const participantsGroups: ParticipantGroups[] = [
 		'automation-tech',
 		'electronic-tech',
 		'it-tech',
 		'tutors'
 	];
-
 	const randomImages: {
-		'automation-tech': string[];
-		'electronic-tech': string[];
-		'it-tech': string[];
-		tutors: string[];
+		[key in ParticipantGroups]: string[];
 	} = {
 		'automation-tech': [],
 		'electronic-tech': [],
 		'it-tech': [],
 		tutors: []
 	};
+
+	const involved = Object.keys(participants)
+		.reduce<Participant[]>(
+			(acc, group) => [...acc, ...participants[group as ParticipantGroups]],
+			[]
+		)
+		.sort((a, b) =>
+			(a.name.split(' ').pop() ?? '').localeCompare(b.name.split(' ').pop() ?? '', [
+				'pl-PL',
+				'es-ES',
+				'en-US'
+			])
+		);
 
 	const pickRandomImages = (array: string[]): string[] => {
 		const max = 5;
@@ -45,22 +54,16 @@
 	};
 
 	onMount(() => {
-		participantsGroups.forEach((group) => {
-			randomImages[group] = pickRandomImages(
-				participants[group].map((participant) => participant.image || '')
+		Object.keys(participants).forEach((group) => {
+			randomImages[group as ParticipantGroups] = pickRandomImages(
+				participants[group as ParticipantGroups].map((participant) => participant.image || '')
 			);
-		});
-	});
-	afterUpdate(() => {
-		participantsGroups.forEach((group) => {
-			participants[group].map((participant) => {
-				if (participant.image) new Image().src = participant.image;
-			});
 		});
 	});
 </script>
 
 <div class="wrapper">
+	<h1 class="styled-header">{$t('nav.participants')}</h1>
 	<div class="groups">
 		{#each participantsGroups as key, index}
 			<ParticipantsGroup
@@ -95,6 +98,13 @@
 			</div>
 		{/each}
 	</div>
+
+	<h3 class="styled-header">{$t('participants.involved')}</h3>
+	<ul class="people-involved">
+		{#each involved as participant (participant.name)}
+			<li>{participant.name}</li>
+		{/each}
+	</ul>
 </div>
 
 <style>
@@ -102,7 +112,7 @@
 		max-width: 1500px;
 		margin: 2em auto;
 		background-color: rgba(255, 255, 255);
-		padding: 3em;
+		padding: 10px;
 		border-radius: 20px;
 	}
 	.groups {
@@ -163,12 +173,16 @@
 	.styled-header {
 		margin: 10px auto;
 	}
+	h1.styled-header {
+		margin: 0 auto 2em;
+	}
 
 	@media screen and (max-width: 800px) {
 		.wrapper {
-			padding: 0;
+			padding: 16px 0;
 		}
 		.groups {
+			overflow-x: hidden;
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 1fr 1fr 1fr;
 		}

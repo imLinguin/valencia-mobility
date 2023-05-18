@@ -4,6 +4,7 @@
 
 	//@ts-ignore
 	import PhotoSwipe from 'photoswipe/lightbox';
+	import PS from 'photoswipe';
 	import 'photoswipe/style.css';
 	import { onMount } from 'svelte';
 
@@ -20,7 +21,7 @@
 			arrowPrevTitle: $t('gallery.arrowPrevTitle'),
 			arrowNextTitle: $t('gallery.arrowNextTitle'),
 			errorMsg: $t('gallery.errorMsg'),
-			pswpModule: () => import('photoswipe')
+			pswpModule: PS
 		});
 
 		lightbox.init();
@@ -55,7 +56,7 @@
 
 	.pswp-gallery div {
 		height: 100%;
-		border-radius: 20px;
+		border-radius: 10px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
