@@ -16,7 +16,7 @@
 			<div slot="description" class="description">
 				{#if detail?.paragraphs?.length}
 					{#each detail.paragraphs as paragraph}
-						<p>{$t(`culture.${detail.title}.${paragraph}`)}</p>
+						<p>{$t(`preparations.${detail.title}.${paragraph}`)}</p>
 					{/each}
 				{:else}
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, amet.</p>
