@@ -1,6 +1,7 @@
 import type { Image } from '$lib/types';
 import culture from './traineeship/culture';
 import preparations from './traineeship/preparations';
+import inCompanies from './traineeship/in-companies';
 
 const getImages = (object: {
 	[key: string]: {
@@ -12,6 +13,78 @@ const getImages = (object: {
 	Object.values(object)
 		.map((entry) => entry.images)
 		.flat();
+
+const flightTo = [
+	{
+		thumbnail: '/images/flight/to/thumbnails/Antosz_Konrad_grupa_przed_samolotem.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/to/original/Antosz_Konrad_grupa_przed_samolotem.jpg'
+	},
+	{
+		thumbnail: '/images/flight/to/thumbnails/samolot_lotnisko_warszawa.webp',
+		width: 2560,
+		height: 1706,
+		original: '/images/flight/to/original/samolot_lotnisko_warszawa.JPG'
+	},
+	{
+		thumbnail: '/images/flight/to/thumbnails/uczniowie_lotnisko_chopin_1.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/to/original/uczniowie_lotnisko_chopin_1.jpg'
+	},
+	{
+		thumbnail: '/images/flight/to/thumbnails/widok_samolot_mount_blanc_2.webp',
+		width: 2560,
+		height: 1706,
+		original: '/images/flight/to/original/widok_samolot_mount_blanc_2.JPG'
+	}
+];
+
+const flightFrom = [
+	{
+		thumbnail: '/images/flight/from/thumbnails/1_grupa_oczekuje_na_walizki.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/1_grupa_oczekuje_na_walizki.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/3_grupa_wchodzi_do_samolotu.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/3_grupa_wchodzi_do_samolotu.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/5_Walencja_port_z_gory.webp',
+		width: 2560,
+		height: 3413,
+		original: '/images/flight/from/original/5_Walencja_port_z_gory.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/1683564192197.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/1683564192197.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/1683564192221.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/1683564192221.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/1683564192270.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/1683564192270.jpg'
+	},
+	{
+		thumbnail: '/images/flight/from/thumbnails/1683564192354.webp',
+		width: 2560,
+		height: 1920,
+		original: '/images/flight/from/original/1683564192354.jpg'
+	}
+];
 
 const lastMeeting = [
 	{
@@ -120,10 +193,13 @@ const groupPhotos = [
 
 const galleryImages: Image[] = [
 	...getImages(preparations),
-	...groupPhotos,
+	...flightTo,
+	...getImages(inCompanies),
 	...getImages(culture),
+	...groupPhotos,
 	...everydayMeetings,
-	...lastMeeting
+	...lastMeeting,
+	...flightFrom
 ];
 
 export default galleryImages;
