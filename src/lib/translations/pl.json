@@ -24,16 +24,24 @@
 	},
 	"preparations": {
 		"english": {
-			"title": "Język Angielski"
+			"title": "Język Angielski",
+			"p1": "Przed wyjazdem uczniowie uczestniczyli w dodatkowych lekcjach języka angielskiego, dzięki którym przypominali sobie ważne sformuowania i słówka przydatne w codziennych sytuacjach.",
+			"p2": "Tematami były zarówno sytuacje codzienne na lotnisku, w sklepie, w restauracji. Jak i sytuacje w życiu zawodowym z głębokim zasobem słownictwa specjalistycznego.",
+			"p3": "Zajecia prowadzone były przez pana Grzegorza Wójcik."
 		},
 		"spanish": {
-			"title": "Język Hiszpański"
+			"title": "Język Hiszpański",
+			"p1": "Uczniowe również mieli sposobność bliższego zapoznania się z kulturą Hiszpani i regionu Walencji na 10-cio godzinnych zajęciach przygotowania kulturowego oraz lekcji języka Hiszpańskiego",
+			"p2": "Zajęcia prowadzone były przez panią Karolinę Zgłębicką, która podzieliła się swoją wiedzą na temat kultury hiszpańskiej. Uczniowie również poznali podstawowe słownictwo pozwalające na zorientowanie się w terenie, zamówienie jedzenia czy na prostą rozmowę w języku hiszpańskim. Pani Karolina nie tylko przekazała powszechną wiedzę, lecz także podzieliła się swoimi doświadczeniami po pobycie w Hiszpani jak i cennymi wskazówkami."
 		},
 		"organizational-meeting": {
-			"title": "Spotkania Organizacyjne"
+			"title": "Spotkania Organizacyjne",
+			"p1": "Przed wyjazdem uczniowie uczestniczyli w cyklicznie organizowanych spotkaniach, których głownym tematem były sprawy związane z organizacją projektu oraz logistyką z nim związaną.",
+			"p2": "Na spotkaniach uczniowie byli informowani o procedurach związanych z projektem, przydziałem obowiązków dotyczących upowszechniania projektu (strona www, gablotka, ulotka, itp....)"
 		},
 		"esmovia-preparations": {
-			"title": "Przygotowania ESMOVIA"
+			"title": "Przygotowania ESMOVIA",
+			"p1": "Po przyjeździe do słonecznej Hiszpani zarówno uczniowie jak i opiekunowie uczesniczyli w spotkaniu zorganizowanym przez organizację przyjmującą ESMOVIA..."
 		}
 	},
 	"culture": {

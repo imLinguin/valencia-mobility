@@ -5,6 +5,10 @@
 <footer>
 	<img src={`/images/footer_${$locale}.webp`} alt="" />
 	<span>{$t('footer.projectCode')}</span>
+	<span
+		>Page created with ❤️ by <a href="https://github.com/imLinguin">Paweł Lidwin</a> and
+		<a href="https://linktr.ee/xtkeyy"> Tobiasz Kmiotek</a></span
+	>
 </footer>
 
 <style>

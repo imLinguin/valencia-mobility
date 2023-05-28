@@ -14,8 +14,8 @@
 		microarea: 'Microarea Software',
 		nadunet: 'nadunet',
 		ommvi: 'OMMVI',
-		relms: "RELMS",
-		seymeval: "Seymeval"
+		relms: 'RELMS',
+		seymeval: 'Seymeval'
 	};
 </script>
 
@@ -25,19 +25,7 @@
 	{#each Object.values(inCompaniesData) as detail}
 		<Details key={detail.title} title={companiesNamesMap[detail.title]} photos={detail.images}>
 			<div slot="description">
-				{#if detail?.paragraphs?.length}
-					{#each detail.paragraphs as paragraph}
-						<p>{$t(`in-companies.${detail.title}.${paragraph}`)}</p>
-					{/each}
-				{:else}
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, amet.</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perferendis quidem,
-						dolorem iusto minima corporis delectus, quaerat animi eum eligendi debitis magnam
-						officiis voluptatum maiores voluptatibus ab voluptate accusantium error iste. Autem
-						quasi error voluptas! Tenetur hic eligendi maxime sint.
-					</p>
-				{/if}
+				<p>{$t(`institutions.descriptions.${companiesNamesMap[detail.title]}`)}</p>
 			</div>
 		</Details>
 	{/each}

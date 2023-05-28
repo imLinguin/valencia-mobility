@@ -22,7 +22,8 @@ const preparations: {
 				height: 1920,
 				original: '/images/preparations/english/original/kurs_j_ang_w_ZSE_20230207.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1', 'p2', 'p3']
 	},
 	spanish: {
 		title: 'spanish',
@@ -51,7 +52,8 @@ const preparations: {
 				height: 1706,
 				original: '/images/preparations/spanish/original/kurs_j_hiszpanskiego_5.JPG'
 			}
-		]
+		],
+		paragraphs: ['p1', 'p2']
 	},
 	'organizational-meeting': {
 		title: 'organizational-meeting',
@@ -96,7 +98,8 @@ const preparations: {
 				original:
 					'/images/preparations/organizational meeting/original/spotkanie_organizacyjne_w_ZSE_2.JPG'
 			}
-		]
+		],
+		paragraphs: ['p1', 'p2']
 	},
 	'esmovia-preparations': {
 		title: 'esmovia-preparations',
@@ -149,7 +152,8 @@ const preparations: {
 				height: 1927,
 				original: '/images/cultural/4hiszpanski/original/IMG20230418150655.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	}
 };
 

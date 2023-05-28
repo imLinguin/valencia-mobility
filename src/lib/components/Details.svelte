@@ -92,5 +92,8 @@
 		:global(.card .pswp-gallery) {
 			display: flex !important;
 		}
+		:global(.card .pswp-gallery a) {
+			height: 200px;
+		}
 	}
 </style>
