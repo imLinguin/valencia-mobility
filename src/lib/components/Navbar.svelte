@@ -2,6 +2,9 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { t, locale, locales } from '$lib/utils/translations';
+	import Close from 'svelte-material-icons/Close.svelte';
+	import Menu from 'svelte-material-icons/Menu.svelte';
+
 	const routes = [
 		{ route: '', name: 'home' },
 		{ route: '/participants', name: 'participants' },
@@ -19,6 +22,7 @@
 		{ route: '/gallery', name: 'gallery' }
 	];
 	let docked = true;
+	let mobileOpen = false;
 	$: path = $page.url.pathname;
 	const updateDocked = () => {
 		docked = window.scrollY < 10;
@@ -55,6 +59,48 @@
 		{/each}
 	</div>
 
+	<div class="icon-button" on:click={() => (mobileOpen = true)}>
+		<Menu size="25" />
+	</div>
+
+	<div class="mobile-navigation glass" class:open={mobileOpen}>
+		<div class="icon-button" on:click={() => (mobileOpen = false)}>
+			<Close size="100%" />
+		</div>
+		{#each routes as route}
+			{#if route.route !== null}
+				<a href={`/${$locale}${route.route}`} class:active={path === `/${$locale}${route.route}`}
+					>{$t(`nav.${route.name}`)}</a
+				>
+			{:else}
+				<a href={`/${$locale}${route.subroutes[0].route}`} class="submenu">
+					{$t(`nav.${route.name}`)}
+					<ul>
+						{#each route.subroutes as subroute}
+							<li class:active={path === `/${$locale}${subroute.route}`}>
+								<a href={`/${$locale}${subroute.route}`}>
+									{$t(`nav.${subroute.name}`)}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</a>
+			{/if}
+		{/each}
+		<div class="lang">
+			{#each $locales as value}
+				<a
+					href="#"
+					class="lang-select"
+					class:selected={$locale === value}
+					on:click|preventDefault={() =>
+						goto(`/${value}/${$page.url.pathname.split('/').slice(2).join('/')}`)}
+				>
+					{$t(`lang.${value}`)}
+				</a>
+			{/each}
+		</div>
+	</div>
 	<div class="lang">
 		{#each $locales as value}
 			<a
@@ -177,15 +223,52 @@
 		padding: 10px;
 	}
 
-	.navigation .active {
+	.navigation .active,
+	.mobile-navigation .active {
 		color: white;
 		opacity: 1;
 		background: var(--valencia-dark-2);
 		box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	.navigation li.active a {
+	.navigation li.active a,
+	.mobile-navigation li.active a {
 		color: white;
+	}
+
+	.mobile-navigation {
+		display: none;
+		position: absolute;
+		top: 0;
+		height: 100vh;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.mobile-navigation ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mobile-navigation > a,
+	.mobile-navigation > a.submenu li {
+		border: 1px solid rgba(128, 128, 128, 0.3);
+	}
+	.mobile-navigation a.submenu ul {
+		margin-top: 10px;
+		font-size: 0.9em;
+	}
+	.mobile-navigation a.submenu ul li {
+		margin: 5px 0;
+		padding: 5px;
+		border-radius: 8px;
 	}
 
 	.lang-select {
@@ -197,10 +280,47 @@
 		color: var(--valencia-red);
 	}
 
+	.icon-button {
+		display: none;
+	}
+
 	@media screen and (max-width: 1024px) {
 		.navigation,
 		.lang {
 			display: none;
+		}
+		.icon-button {
+			background-color: var(--valencia-dark-2);
+			color: white;
+			padding: 0;
+			width: 40px;
+			margin: 0 20px;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 10px;
+		}
+		.mobile-navigation {
+			display: flex;
+			opacity: 1;
+			transform: translateY(-100vh);
+			transition: all 400ms ease;
+		}
+		.mobile-navigation .lang {
+			margin-top: 30px;
+			display: flex;
+		}
+
+		.mobile-navigation .icon-button {
+			position: absolute;
+			top: 10px;
+			right: 0;
+		}
+
+		.mobile-navigation.open {
+			transform: translateY(0);
+			opacity: 1;
 		}
 	}
 </style>

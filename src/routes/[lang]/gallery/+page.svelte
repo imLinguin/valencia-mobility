@@ -23,7 +23,7 @@
 		border-radius: 20px;
 	}
 	:global(.pswp-gallery#main-gallery div) {
-		width: 400px;
+		width: min(90vw, 400px);
 		height: 250px;
 	}
 

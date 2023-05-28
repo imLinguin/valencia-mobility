@@ -82,10 +82,7 @@
 					<p>
 						W ramach projektu 22 uczniów Zespołu Szkół Elektronicznych w Rzeszowie odbędzie 3
 						tygodniową praktykę zawodowa w instytucjach szkoleniowych i firmach w sektorze IT,
-						elektroniki i automatyki w hiszpańskich zakładach pracy. W ramach projektu zorganizowany
-						również zostanie tygodniowy wyjazd 5-ciu nauczycieli Zespołu Szkół Elektronicznych w
-						Rzeszowie na szkolenie „job shadowing” do organizacji przyjmującej ESMOVIA w Walencji,
-						Hiszpania w celu podniesienia umiejętności i kompetencji zawodowych.
+						elektroniki i automatyki w hiszpańskich zakładach pracy. 
 					</p>
 					<p>
 						Celem projektu jest zapoznanie z hiszpańskim system kształcenia, zapoznanie ze strukturą
@@ -102,12 +99,6 @@
 						doświadczenie w szkoleniu specjalistów z zakresu współczesnych technologii oraz
 						przeprowadzaniu wymiany i stażu w ramach projektów UE. 22-osobowej grupie uczniów będzie
 						towarzyszyć 2 nauczycieli/opiekunów.
-					</p>
-					<p>
-						Poprzez realizację projektu, analizę i upowszechnianie jego wyników nauczyciele wzbogacą
-						się o nowe doświadczenia, które pozwolą ulepszyć metody nauczania młodzieży reagując na
-						dynamicznie rozwijający się rynek pracy zatrudniający specjalistów w branży
-						elektronicznej i informatycznej.
 					</p>
 					<p>
 						Uczniowie odbywający praktykę zagraniczną w ramach projektu zdobędą wiedzę oraz cenne,
@@ -262,15 +253,15 @@
 
 	div.text-content div.aside-image-wrapper img {
 		object-fit: cover;
-		width: 400px;
+		width: 100%;
 		transition: transform 400ms ease;
 	}
 
 	div.text-content div.image-wrapper {
 		border-radius: 20px;
 		overflow: hidden;
-		height: 400px;
-		min-width: 400px;
+		height: min(80vw, 400px);
+		min-width: min(80vw, 400px);
 		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
 		margin: 20px;
 	}
@@ -297,6 +288,11 @@
 
 		.chips .wrapper {
 			flex-direction: column;
+		}
+
+		div.content.docked {
+			margin: 0;
+			padding: 10px;
 		}
 		div.text-content div.aside-image-wrapper {
 			flex-direction: column;

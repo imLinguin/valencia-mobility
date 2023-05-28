@@ -53,6 +53,7 @@
 	}
 
 	.styled-header {
+		text-align: center;
 		margin: 0 auto 20px;
 	}
 </style>
