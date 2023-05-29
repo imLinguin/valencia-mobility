@@ -41,15 +41,38 @@
 		},
 		"esmovia-preparations": {
 			"title": "Przygotowania ESMOVIA",
-			"p1": "Po przyjeździe do słonecznej Hiszpani zarówno uczniowie jak i opiekunowie uczesniczyli w spotkaniu zorganizowanym przez organizację przyjmującą ESMOVIA..."
+			"p1": "Po przyjeździe do słonecznej Hiszpani zarówno uczniowie jak i opiekunowie uczesniczyli w spotkaniu zorganizowanym przez organizację przyjmującą ESMOVIA. Na spotkaniu uczniowie otrzymali informacje do jakich firm zostali przyjęci.",
+			"p2": "Odbył się także 4 godzinny kurs języka Hiszpańskiego, na którym uczniowie dodatkowo pogłębili zasób słownictwa."
 		}
 	},
 	"culture": {
 		"city-tour": {
-			"title": "Zwiedzanie miasta"
+			"title": "Zwiedzanie miasta",
+			"p1": "Pierwszego dnia wolnego uczniowie wybrali się ze swoim przewodnikiem na spacer po Walencji, zabierając ich do najważniejszych i najciekawszych miejsc regionu. Odwiedzili także muzeum archeologiczne, w którym znajdują się pozostałości najstarszego budynku w Walencji. "
 		},
 		"bioparc": {
-			"title": "Biopark"
+			"title": "Biopark",
+			"p1": "Uczestnicy odwiedzili także lokalny biopark (10-hektarowe zoo) u podnóża koryta rzeki Turia. Uczestnicy mieli okazję zobaczyć dziką przyrodę z różnych części Afryki."
+		},
+		"beach": {
+			"title": "Plaża",
+			"p1": "Jest czas na pracę i jest czas na odpoczynek. Wolny czas uczestnicy spędzali na plaży. Pobyt tam nastawiony był nie tylko na plażowanie, ale także na sport, siatkówkę i bieganie."
+		},
+		"oceanographic": {
+			"title": "Oceanarium",
+			"p1": "Uczniowie zwiedzili oceanarium w Walencji, część kompleksu Miasta Sztuki i Nauki. Tam mogli spotkać morskie stworzenia z całego świata. Jedną z ciekawszych atrakcji był pokaz delfinów.​"
+		},
+		"boat": {
+			"title": "Albufera",
+			"p1": "W następnym dniu wolnym uczniowie wraz z opiekunami wybrali się na rejs po jeziorze w Parku Narodowym Albufera. Przewodnik pokazał im najciekawsze jej części, a także opowiedział o pobliskiej uprawie ryżu na paellę, z której słynie Walencja. "
+		},
+		"katamaran": {
+			"title": "Rejs katamaranem",
+			"p1": "Grupa miała również okazję przepłynąć łodzią Karamaran po morzu, podczas godzinnego rejsu zobaczyć wybrzeże Walencji z zupełnie innej perspektywy.​"
+		},
+		"stadium": {
+			"title": "Zwiedzanie stadionu",
+			"p1": "Kolejnym miejscem, które odwiedziła grupa był stadion Mestalla w Walencji. Tam poznali historię powstania miejsca spotkań wielu kibiców z całego regionu, a także jednej z najstarszych hiszpańskich drużyn – Valencii CF. ​"
 		}
 	},
 	"institutions": {
@@ -65,7 +88,7 @@
 			"IES Districte Marítim": "IES Distrito Maritimo to szkoła średnia, która nie boi się korzystać z najnowszych technologii, takich jak drukarki 3D, laptopy i tablety. Jest również świetnie zaopatrzona w elektronarzędzia. O sprawność tego wszystkiego dba samodzielnie uczeń ZSE, który opiekuje się zarówno hardware'em, jak i pomaga nauczycielom w przeprowadzanych ćwiczeniach podczas zajęć.",
 			"Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación": "Baukunst to firma zajmująca się wirtualizacja zabytków z całego świata, chociażby z Rio de Janeiro. Nasi uczniowie dostali zadanie wykonania strony internetowej dla swojego pracodawcy, co nie tylko pozwala na rozwój swoich umiejętności, ale także umożliwia podziwiania wyników ich pracy w Internecie w praktycznym zastosowaniu.",
 			"Seymeval": "Seymeval S.L. produkuje rozdzielnice do instalacji elektrycznych spełniających wszelkie wymagania klienta. Dwójka uczniów biorących udział w praktyce w ramach swojej nauki odpowiadała za sprawdzanie poprawności połączeń elektrycznych oraz montaż.",
-			"nadunet": "nadunet nie tylko jest dostawcą Internetu. Wykonuje także program rządowy wspierający firmy w rozwoju własnych stron w sieci oraz mediach społecznościowych. Praktykanci czynnie wspomagali pracowników firmy, tworząc skrypty oraz obsługując narzędzia pokroju WordPress, jednocześnie poznając tajniki pracy w korporacyjnej branży IT.",
+			"nadunet": "nadunet nie tylko jest dostawcą Internetu. Wykonuje także program rządowy wspierający firmy w rozwoju własnych stron w sieci oraz mediach społecznościowych. Praktykanci czynnie wspomagali pracowników firmy, tworząc skrypty oraz obsługując narzędzia pokroju WordPress, jednocześnie poznając tajniki pracy w korporacyjnej branży IT.",
 			"OMMVI": "OMMVI jest firmą specjalizującą się w naprawianiu hulajnóg elektrycznych. W niej również szansę spróbowania się z elektroniką tych pojazdów miał uczeń z Zespołu Szkół Elektronicznych, zdobywając niecodzienną wiedzę o konstrukcji tak powszechnego środku transportu. ",
 			"Goblue": "Goblue zajmuje się serwisowaniem hulajnóg elektrycznych, a także rowerów. Jeden z elektroników miał okazję zarówno zaznajomić się z mechaniczną naprawą dwukołowych pojazdów, jak i pracować z elektroniką zawartą w hulajnogach.",
 			"Instituto Inter": "Instituto Inter funkcjonuje jako prywatny ośrodek kształcenia zawodowego w zakresie medycyny, technologii, w tym tak przyszłościowych jak panele fotowoltaiczne, oraz mechaniki samochodowej. Praktykanci pilnowali, by wszystko działało, jak należy, konserwując komputery w placówce oraz tworząc aplikacje webowe, pozwalające zyskać doświadczenie oraz poszerzyć ich portfolio zawodowe."

@@ -5,10 +5,10 @@ import pl from '../translations/pl.json';
 
 const config = {
 	translations: {
-		en: {
-			...en,
-			lang
-		},
+		// en: {
+		// 	...en,
+		// 	lang
+		// },
 
 		pl: {
 			...pl,
@@ -17,6 +17,6 @@ const config = {
 	}
 };
 
-export const defaultLocale = 'en';
+export const defaultLocale = 'pl';
 
 export const { t, locale, locales, loading, translations, loadTranslations } = new i18n(config);

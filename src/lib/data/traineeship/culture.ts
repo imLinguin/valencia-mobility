@@ -161,7 +161,8 @@ const culture: {
 				height: 1927,
 				original: '/images/cultural/2biopark/original/IMG20230417152545.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	},
 	beach: {
 		title: 'beach',
@@ -184,7 +185,8 @@ const culture: {
 				height: 1927,
 				original: '/images/cultural/5plaza/original/PXL_20230420_203231800.NIGHT.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	},
 	oceanographic: {
 		title: 'oceanographic',
@@ -275,7 +277,8 @@ const culture: {
 				height: 1706,
 				original: '/images/cultural/6oceanarium/original/5_grupa_na_wystepie.JPG'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	},
 	boat: {
 		title: 'boat',
@@ -316,7 +319,8 @@ const culture: {
 				height: 3413,
 				original: '/images/cultural/7lodka/original/1_grupa_na_lodce.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	},
 	katamaran: {
 		title: 'katamaran',
@@ -387,7 +391,8 @@ const culture: {
 				height: 1706,
 				original: '/images/cultural/9katamaran/original/DSC09237.JPG'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	},
 	stadium: {
 		title: 'stadium',
@@ -428,7 +433,8 @@ const culture: {
 				height: 1440,
 				original: '/images/cultural/10stadion/original/20230430_114258.jpg'
 			}
-		]
+		],
+		paragraphs: ['p1']
 	}
 };
 

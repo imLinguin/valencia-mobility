@@ -43,10 +43,23 @@
 
 	.styled-header {
 		text-align: center;
-		margin: 0 auto 20px;
+		margin: 20px auto 10px;
+	}
+	.description {
+		border: 1px solid rgba(128, 128, 128, 0.5);
+		padding: 15px;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+		max-width: 600px;
 	}
 
 	@media screen and (max-width: 768px) {
+		.description {
+			margin: 0;
+		}
 		div.wrapper {
 			margin: 2em 0;
 			padding: 10px 0;

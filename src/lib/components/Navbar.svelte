@@ -69,16 +69,22 @@
 		</div>
 		{#each routes as route}
 			{#if route.route !== null}
-				<a href={`/${$locale}${route.route}`} class:active={path === `/${$locale}${route.route}`}
-					>{$t(`nav.${route.name}`)}</a
+				<a
+					href={`/${$locale}${route.route}`}
+					on:click={() => (mobileOpen = false)}
+					class:active={path === `/${$locale}${route.route}`}>{$t(`nav.${route.name}`)}</a
 				>
 			{:else}
-				<a href={`/${$locale}${route.subroutes[0].route}`} class="submenu">
+				<a
+					href={`/${$locale}${route.subroutes[0].route}`}
+					on:click={() => (mobileOpen = false)}
+					class="submenu"
+				>
 					{$t(`nav.${route.name}`)}
 					<ul>
 						{#each route.subroutes as subroute}
 							<li class:active={path === `/${$locale}${subroute.route}`}>
-								<a href={`/${$locale}${subroute.route}`}>
+								<a href={`/${$locale}${subroute.route}`} on:click={() => (mobileOpen = false)}>
 									{$t(`nav.${subroute.name}`)}
 								</a>
 							</li>
@@ -87,6 +93,23 @@
 				</a>
 			{/if}
 		{/each}
+		{#if $locales.length > 1}
+			<div class="lang">
+				{#each $locales as value}
+					<a
+						href="#"
+						class="lang-select"
+						class:selected={$locale === value}
+						on:click|preventDefault={() =>
+							goto(`/${value}/${$page.url.pathname.split('/').slice(2).join('/')}`)}
+					>
+						{$t(`lang.${value}`)}
+					</a>
+				{/each}
+			</div>
+		{/if}
+	</div>
+	{#if $locales.length > 1}
 		<div class="lang">
 			{#each $locales as value}
 				<a
@@ -100,20 +123,7 @@
 				</a>
 			{/each}
 		</div>
-	</div>
-	<div class="lang">
-		{#each $locales as value}
-			<a
-				href="#"
-				class="lang-select"
-				class:selected={$locale === value}
-				on:click|preventDefault={() =>
-					goto(`/${value}/${$page.url.pathname.split('/').slice(2).join('/')}`)}
-			>
-				{$t(`lang.${value}`)}
-			</a>
-		{/each}
-	</div>
+	{/if}
 </nav>
 
 <style>

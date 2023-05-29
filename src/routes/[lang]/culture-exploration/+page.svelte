@@ -9,7 +9,7 @@
 
 	{#each Object.values(cultureData) as detail}
 		<Details key={detail.title} title={$t(`culture.${detail.title}.title`)} photos={detail.images}>
-			<div slot="description">
+			<div class="description" slot="description">
 				{#if detail?.paragraphs?.length}
 					{#each detail.paragraphs as paragraph}
 						<p>{$t(`culture.${detail.title}.${paragraph}`)}</p>
@@ -39,6 +39,21 @@
 
 	.styled-header {
 		text-align: center;
-		margin: 0 auto 20px;
+		margin: 20px auto 10px;
+	}
+	.description {
+		border: 1px solid rgba(128, 128, 128, 0.5);
+		padding: 15px;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+		max-width: 600px;
+	}
+	@media screen and (max-width: 768px) {
+		.description {
+			margin: 0;
+		}
 	}
 </style>

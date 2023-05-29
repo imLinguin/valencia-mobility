@@ -153,7 +153,7 @@ const preparations: {
 				original: '/images/cultural/4hiszpanski/original/IMG20230418150655.jpg'
 			}
 		],
-		paragraphs: ['p1']
+		paragraphs: ['p1', 'p2']
 	}
 };
 

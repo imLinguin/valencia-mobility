@@ -47,4 +47,10 @@
 		text-align: center;
 		margin: 1em 0;
 	}
+
+	@media screen and (max-width: 768px) {
+		.institution-card {
+			margin: 10px 0;
+		}
+	}
 </style>

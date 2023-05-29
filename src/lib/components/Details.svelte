@@ -29,7 +29,7 @@
 <div class="card">
 	<h2 class="styled-header">{title}</h2>
 	<div class="content">
-		<slot name="description" />
+		<slot name="description" class="description" />
 		<div class="photos">
 			<Gallery galleryId={key} images={photos.slice(0, 4)} />
 		</div>
@@ -50,9 +50,12 @@
 	.content {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 		margin-top: 2em;
+		margin-bottom: 4em;
+		gap: 20px;
 	}
+
 
 	:global(.card .pswp-gallery) {
 		display: grid !important;
