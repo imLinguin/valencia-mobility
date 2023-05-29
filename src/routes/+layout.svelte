@@ -7,6 +7,10 @@
 
 <svelte:head>
 	<title>{$t('meta.title')}</title>
+	<meta name="description" content={$t('meta.description')} />
+	<meta name="og:title" content={$t('meta.title')}/>
+	<meta name="og:type" content="website"/>
+	<meta name="og:image" content="/images/background.webp"/>
 </svelte:head>
 <div>
 	<Navbar />

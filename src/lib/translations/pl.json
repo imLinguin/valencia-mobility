@@ -14,7 +14,10 @@
 		"in-companies": "W firmach",
 		"culture-exploration": "Aktywności kulturowe i czas wolny"
 	},
-	"meta": { "title": "Praktyki Erasmus+ ZSE Walencja 2023" },
+	"meta": {
+		"title": "Praktyki Erasmus+ ZSE Walencja 2023",
+		"description": "Strona internetowa podsumowująca praktyki zawodowe Eramsus+ Zespołu Szkół Elektronicznych w Rzeszowie - Walencja, Hiszpania w ramach projektu nr 2022-1-PL01-KA121-VET-000061831"
+	},
 	"participants": {
 		"automation-tech": "Automatycy",
 		"electronic-tech": "Elektronicy",
