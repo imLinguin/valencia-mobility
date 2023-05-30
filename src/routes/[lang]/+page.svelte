@@ -44,23 +44,23 @@
 		</h2>
 		<div class="chips">
 			<div class="wrapper">
-				<LandingChip title="uczniów" content="22">
+				<LandingChip title={$t('home.chips.students')} content="22">
 					<AccountCircle width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="opiekunów" content="5">
+				<LandingChip title={$t('home.chips.tutors')} content="5">
 					<Groups width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="dni praktyk" content="15">
+				<LandingChip title={$t('home.chips.days')} content="15">
 					<Calendar width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="firm" content="12">
+				<LandingChip title={$t('home.chips.companies')} content="12">
 					<OfficeBuilding width={50} height="100%" />
 				</LandingChip>
 
-				<LandingChip title="aktywności kulturowych" content="6">
+				<LandingChip title={$t('home.chips.culture-activities')} content="6">
 					<OfficeBuilding width={50} height="100%" />
 				</LandingChip>
 			</div>

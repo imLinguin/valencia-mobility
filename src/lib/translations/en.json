@@ -2,7 +2,14 @@
 	"home": {
 		"about-project": "About project",
 		"subtitle": "Valencia, Spain",
-		"project-goals": "Project Goals"
+		"project-goals": "Project Goals",
+		"chips": {
+			"students": "students",
+			"tutors": "tutors",
+			"days": "traineeship days",
+			"companies": "companies",
+			"culture-activities": "cultural activities"
+		}
 	},
 	"nav": {
 		"home": "Home",

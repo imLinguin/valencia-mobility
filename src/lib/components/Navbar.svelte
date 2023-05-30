@@ -6,20 +6,20 @@
 	import Menu from 'svelte-material-icons/Menu.svelte';
 
 	const routes = [
-		{ route: '', name: 'home' },
-		{ route: '/participants', name: 'participants' },
+		{ route: '/', name: 'home' },
+		{ route: '/participants/', name: 'participants' },
 		{
 			route: null,
 			name: 'traineeship',
 			subroutes: [
-				{ route: '/preparations', name: 'preparations' },
-				{ route: '/culture-exploration', name: 'culture-exploration' },
-				{ route: '/in-companies', name: 'in-companies' }
+				{ route: '/preparations/', name: 'preparations' },
+				{ route: '/culture-exploration/', name: 'culture-exploration' },
+				{ route: '/in-companies/', name: 'in-companies' }
 			]
 		},
 
-		{ route: '/institutions', name: 'institutions' },
-		{ route: '/gallery', name: 'gallery' }
+		{ route: '/institutions/', name: 'institutions' },
+		{ route: '/gallery/', name: 'gallery' }
 	];
 	let docked = true;
 	let mobileOpen = false;

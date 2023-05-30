@@ -2,7 +2,14 @@
 	"home": {
 		"about-project": "O projekcie",
 		"subtitle": "Walencja, Hiszpania",
-		"project-goals": "Cele Projektu"
+		"project-goals": "Cele Projektu",
+		"chips": {
+			"students": "uczniów",
+			"tutors": "opiekunów",
+			"days": "dni praktyk",
+			"companies": "firm",
+			"culture-activities": "aktywności kulturowych"
+		}
 	},
 	"nav": {
 		"home": "Główna",

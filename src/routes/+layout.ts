@@ -1,4 +1,5 @@
 export const prerender = true;
+export const trailingSlash = "always";
 
 import { loadTranslations } from '$lib/utils/translations';
 import type { Load } from '@sveltejs/kit';
