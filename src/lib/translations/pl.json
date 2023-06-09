@@ -30,7 +30,20 @@
 		"electronic-tech": "Elektronicy",
 		"it-tech": "Informatycy",
 		"tutors": "Opiekunowie",
-		"involved": "Wszyscy zaangażowani"
+		"involved": {
+			"companies": "Opiekunowie w firmach",
+			"responsible": "Osoby odpowiedzialne",
+			"preparations": "Osoby odpowiedzialne za przygotowanie"
+		},
+		"positions": {
+			"director": "Dyrektor",
+			"administrativeDirector": "Dyrektor administracyjny",
+			"projectCoordinator": "Koordynator projektu",
+			"workPlacementCoordinator": "Koordynator miejsc pracy",
+			"bhp": "bezpieczeństwo higiena pracy",
+			"english": "przygotowanie Język Angielski",
+			"spanish": "przygotowanie Język Hiszpański"
+		}
 	},
 	"preparations": {
 		"english": {

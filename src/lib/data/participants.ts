@@ -37,22 +37,22 @@ const participants: {
 	],
 	tutors: [
 		{
-			name: 'Beata Bieńko',
+			name: 'mgr Beata Bieńko',
 			image: '/images/people/tutors/3.webp'
 		},
 		{
-			name: 'Elżbieta Czech'
+			name: 'mgr Elżbieta Czech'
 		},
 		{
-			name: 'Robert Kasza',
+			name: 'mgr inż. Robert Kasza',
 			image: '/images/people/tutors/2.webp'
 		},
 		{
-			name: 'Zbigniew Niedbała',
+			name: 'mgr inż. Zbigniew Niedbała',
 			image: '/images/people/tutors/1.webp'
 		},
 		{
-			name: 'Grzegorz Wójcik'
+			name: 'mgr Grzegorz Wójcik'
 		}
 	]
 };

@@ -5,6 +5,7 @@
 
 	import participants from '$lib/data/participants';
 	import type { Participant, ParticipantGroups } from '$lib/types';
+	import InvolvedList from '$lib/components/InvolvedList.svelte';
 
 	const participantsGroups: ParticipantGroups[] = [
 		'automation-tech',
@@ -21,18 +22,43 @@
 		tutors: []
 	};
 
-	const involved = Object.keys(participants)
-		.reduce<Participant[]>(
-			(acc, group) => [...acc, ...participants[group as ParticipantGroups]],
-			[]
-		)
-		.sort((a, b) =>
-			(a.name.split(' ').pop() ?? '').localeCompare(b.name.split(' ').pop() ?? '', [
-				'pl-PL',
-				'es-ES',
-				'en-US'
-			])
-		);
+	const companiesTutors = [
+		'Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación - Adolfo Ibañez',
+		'ESMOVIA Training and Mobility - Salvatore De Bonis',
+		'Goblue - Ignacio López',
+		'IES Districte Marítim - Maria Vincenta Sarrión Gonzáles',
+		'Industa - Rafael Tarin',
+		'Instituto Inter - Nuria Medrano',
+		'MD Equipos Tecnológicos - Marcos Montero / Alberto Aliaga Saez ',
+		'Microarea Software - José Miguel Jimenez Zafrilla',
+		'OMMVI - Orelsy Castno Gunino/Francisco Arrando Andrade Hernandez ',
+		'RELMS - David Rel',
+		'Seymeval - Hector Contreras Torres',
+		'nadunet  - Adrián Duque Girón'
+	];
+
+	const peopleResponsible = [
+		`mgr Stanisław Sienko - ${$t('participants.positions.director')} - ZSE`,
+		`mgr inż. Zbigniew Niedbała - ${$t('participants.positions.projectCoordinator')} - ZSE`,
+		`Mª Angeles Ruiz Gámez - ${$t('participants.positions.director')} - ESMOVIA`,
+		`Angelo Vito D’Andrea - ${$t('participants.positions.administrativeDirector')} - ESMOVIA`,
+		`Aleksandra Kuciapa - ${$t('participants.positions.projectCoordinator')} - ESMOVIA`,
+		`Irene Sapiña Torres - ${$t('participants.positions.workPlacementCoordinator')} - ESMOVIA`
+	];
+
+	const preparations = [
+		`mgr inż. Mieczysław Czyż - ${$t('participants.positions.bhp')}`,
+		`mgr Grzegorz Wójcik - ${$t('participants.positions.english')}`,
+		`Karolinę Zgłębicka - ${$t('participants.positions.spanish')}`
+	];
+
+	// .sort((a, b) =>
+	// 	(a.name.split(' ').pop() ?? '').localeCompare(b.name.split(' ').pop() ?? '', [
+	// 		'pl-PL',
+	// 		'es-ES',
+	// 		'en-US'
+	// 	])
+	// );
 
 	const pickRandomImages = (array: string[]): string[] => {
 		const max = 5;
@@ -86,9 +112,12 @@
 							<img src={participant.image || '/images/person.jpg'} alt="" />
 						</div>
 						<span class="participant-name"
-							>{participant.name.split(' ')[0]}
+							>{participant.name
+								.split(' ')
+								.slice(0, participant.name.split(' ').length - 1)
+								.join(' ')}
 
-							<span class="participant-lastname">{participant.name.split(' ')[1]}</span>
+							<span class="participant-lastname">{participant.name.split(' ').pop()}</span>
 						</span>
 						{#if participant?.class}
 							<span class="participant-class">{participant.class}</span>
@@ -99,12 +128,11 @@
 		{/each}
 	</div>
 
-	<h3 class="styled-header">{$t('participants.involved')}</h3>
-	<ul class="people-involved">
-		{#each involved as participant (participant.name)}
-			<li>{participant.name}</li>
-		{/each}
-	</ul>
+	<div class="others">
+		<InvolvedList title="participants.involved.companies" involved={companiesTutors} />
+		<InvolvedList title="participants.involved.responsible" involved={peopleResponsible} />
+		<InvolvedList title="participants.involved.preparations" involved={preparations} />
+	</div>
 </div>
 
 <style>
@@ -175,6 +203,14 @@
 	}
 	h1.styled-header {
 		margin: 0 auto 2em;
+	}
+
+	.others {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
 	}
 
 	@media screen and (max-width: 800px) {
