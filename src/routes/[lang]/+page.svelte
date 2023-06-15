@@ -40,7 +40,7 @@
 
 	<div class="content glass" class:docked bind:this={content}>
 		<h2 class="styled-header">
-			{$t('home.about-project')}
+			{$t('home.about-project.title')}
 		</h2>
 		<div class="chips">
 			<div class="wrapper">
@@ -72,75 +72,47 @@
 				</div>
 				<div>
 					<p>
-						Projekt UE Erasmus+ nr 2022-1-PL01-KA121-VET-000061831 ukierunkowany jest na potrzeby
-						zwiększenia szans zatrudnienia absolwentów Zespołu Szkół Elektronicznych. Celem projektu
-						jest kształtowanie zawodowych i społecznych postaw uczniów ZSE w obszarze europejskim w
-						tym dostosowanie szkoleń zawodowych do obecnych wymagań rynku pracy oraz podniesienie
-						efektywności szkolenia zawodowego poprzez szkolenia zawodowe nauczycieli przedmiotów
-						informatycznych i elektronicznych w zagranicznych instytucjach szkoleniowych i firmach.
+						{$t('home.about-project.p1')}
 					</p>
 					<p>
-						W ramach projektu 22 uczniów Zespołu Szkół Elektronicznych w Rzeszowie odbędzie 3
-						tygodniową praktykę zawodowa w instytucjach szkoleniowych i firmach w sektorze IT,
-						elektroniki i automatyki w hiszpańskich zakładach pracy. 
+						{$t('home.about-project.p2')}
 					</p>
 					<p>
-						Celem projektu jest zapoznanie z hiszpańskim system kształcenia, zapoznanie ze strukturą
-						organizacyjną firm zatrudniających specjalistów w branży elektronicznej i
-						informatycznej, doskonalenie umiejętności językowych, wymiana doświadczeń z innymi
-						trenerami w dziedzinie szkolnictwa zawodowego, zapoznanie z organizacją zewnętrznych
-						egzaminów zawodowych, z treścią programową przedmiotów zawodowych, innowacyjnymi
-						metodami i technikami prowadzenia szkoleń zawodowych, a także zapoznanie ze środkami
-						dydaktycznymi i sposobami ich wykorzystania w procesie kształcenia.
+						{$t('home.about-project.p3')}
 					</p>
 
 					<p>
-						Praktyki dla uczniów będą organizowane w firmach i instytucjach, które posiadają już
-						doświadczenie w szkoleniu specjalistów z zakresu współczesnych technologii oraz
-						przeprowadzaniu wymiany i stażu w ramach projektów UE. 22-osobowej grupie uczniów będzie
-						towarzyszyć 2 nauczycieli/opiekunów.
+						{$t('home.about-project.p4')}
 					</p>
 					<p>
-						Uczniowie odbywający praktykę zagraniczną w ramach projektu zdobędą wiedzę oraz cenne,
-						poszukiwane i wymagane przez pracodawców doświadczenie, które stanie się ważnym atutem w
-						znalezieniu pracy w naszym regionie.
+						{$t('home.about-project.p5')}
 					</p>
 				</div>
 			</div>
-			<h3 class="styled-header">{$t('home.project-goals')}</h3>
+			<h3 class="styled-header">{$t('home.project-goals.title')}</h3>
 			<ol>
 				<li>
-					Zwiększenie mobilności oraz doświadczenia zawodowego uczniów z ZSE poprzez udział w
-					3-tygodniowych zagranicznych praktykach zawodowych z elektroniki, informatyki i
-					automatyki.
+					{$t('home.project-goals.item1')}
 				</li>
 				<li>
-					Poprawa kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości języków
-					obcych uczniów ZSE w trakcie przygotowania do mobilności i podczas stażu za granicą.
+					{$t('home.project-goals.item2')}
 				</li>
 
 				<li>
-					Rozwój zawodowy kadry ZSE poprzez przygotowanie organizacyjno-merytoryczne i udział
-					nauczycieli przedmiotów zawodowych w zagranicznych szkoleniach.
+					{$t('home.project-goals.item3')}
 				</li>
 
 				<li>
-					Wzmocnienie kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości
-					języków obcych nauczycieli ZSE poprzez przygotowanie i udział w zagranicznym stażu
-					zawodowym.
+					{$t('home.project-goals.item4')}
 				</li>
 				<li>
-					Wspieranie jakości, transparentności i uznawania efektów uczenia się uczniów i nauczycieli
-					ZSE w okresach mobilności za granicą przy wykorzystaniu europejskich narzędzi.
+					{$t('home.project-goals.item5')}
 				</li>
 				<li>
-					Kontynuacja i rozwój bezpośredniej współpracy ZSE z europejskimi instytucjami szkolenia
-					zawodowego w zakresie realizacji wysokiej jakości projektów mobilności i doskonalenia
-					procesu kształcenia.
+					{$t('home.project-goals.item6')}
 				</li>
 				<li>
-					Poprawa wyników egzaminu z przygotowania zawodowego w Zespole Szkół Elektronicznych w
-					Rzeszowie.
+					{$t('home.project-goals.item7')}
 				</li>
 			</ol>
 		</div>
@@ -261,9 +233,10 @@
 		border-radius: 20px;
 		overflow: hidden;
 		height: min(80vw, 400px);
-		min-width: min(80vw, 400px);
+		width: min(80vw, 400px);
 		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
 		margin: 20px;
+		flex-shrink: 0;
 	}
 	div.text-content div.aside-image-wrapper img:hover {
 		transform: scale(1.05);
