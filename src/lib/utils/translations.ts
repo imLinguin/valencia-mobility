@@ -5,10 +5,10 @@ import pl from '../translations/pl.json';
 
 const config = {
 	translations: {
-		// en: {
-		// 	...en,
-		// 	lang
-		// },
+		en: {
+			...en,
+			lang
+		},
 
 		pl: {
 			...pl,

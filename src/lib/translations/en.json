@@ -21,7 +21,10 @@
 		"in-companies": "In companies",
 		"culture-exploration": "Cultural activities and free time"
 	},
-	"meta": { "title": "Erasmus+ Traineeship ZSE Valencia 2023", "description": "" },
+	"meta": {
+		"title": "Erasmus+ Traineeship ZSE Valencia 2023",
+		"description": "The website summarizing traineeship of Eramsus+ at Zespół Szkół Elektronicznych w Rzeszowie in Valencia, Spain as a part of the project no. 2022-1-PL01-KA121-VET-000061831"
+	},
 	"participants": {
 		"automation-tech": "Automation Technicians",
 		"electronic-tech": "Electronic Technicians",
@@ -33,85 +36,85 @@
 			"preparations": "People responsible for preparations"
 		},
 		"positions": {
-			"director": "Direktor",
-			"administrativeDirector": "Direktor administracyjny",
-			"projectCoordinator": "Project coordynator",
-			"workPlacementCoordinator": "Work placement coordynator",
-			"bhp": "workplace health and safety",
+			"director": "Director",
+			"administrativeDirector": "Administrative director",
+			"projectCoordinator": "Project coordinator",
+			"workPlacementCoordinator": "Work placement coordinator",
+			"bhp": "Workplace health and safety",
 			"english": "English lessons",
 			"spanish": "Spanish lessons"
 		}
 	},
 	"preparations": {
 		"english": {
-			"title": "Język Angielski",
-			"p1": "Przed wyjazdem uczniowie uczestniczyli w dodatkowych lekcjach języka angielskiego, dzięki którym przypominali sobie ważne sformuowania i słówka przydatne w codziennych sytuacjach.",
-			"p2": "Tematami były zarówno sytuacje codzienne na lotnisku, w sklepie, w restauracji. Jak i sytuacje w życiu zawodowym z głębokim zasobem słownictwa specjalistycznego.",
-			"p3": "Zajecia prowadzone były przez pana Grzegorza Wójcik."
+			"title": "English lessons",
+			"p1": "Before the trip, the students participated in additional English language lessons, which helped them refresh important phrases and vocabulary useful in everyday situations.",
+			"p2": "The topics covered both everyday situations at the airport, in a shop, at a restaurant, as well as professional life situations with a comprehensive range of specialized vocabulary.",
+			"p3": "The classes were conducted by an English language teacher - mgr Grzegorza Wójcika."
 		},
 		"spanish": {
-			"title": "Język Hiszpański",
-			"p1": "Uczniowe również mieli sposobność bliższego zapoznania się z kulturą Hiszpani i regionu Walencji na 10-cio godzinnych zajęciach przygotowania kulturowego oraz lekcji języka Hiszpańskiego",
-			"p2": "Zajęcia prowadzone były przez panią Karolinę Zgłębicką, która podzieliła się swoją wiedzą na temat kultury hiszpańskiej. Uczniowie również poznali podstawowe słownictwo pozwalające na zorientowanie się w terenie, zamówienie jedzenia czy na prostą rozmowę w języku hiszpańskim. Pani Karolina nie tylko przekazała powszechną wiedzę, lecz także podzieliła się swoimi doświadczeniami po pobycie w Hiszpani jak i cennymi wskazówkami."
+			"title": "Spanish lessons and cultural preparation",
+			"p1": "The students learned the basics of the Spanish language and participated in cultural preparation sessions focused on Spain.",
+			"p2": "The classes were conducted by Ms. Karolina Zgłębicka from the University of Rzeszów, who shared her knowledge about Spanish culture. The students learned basic vocabulary to navigate in various situations, order food, or engage in simple conversations in Spanish. Ms. Karolina shared her experiences from her stay in Spain and valuable tips from her numerous travels. The cultural preparation elements were also led by the teachers from ZSE."
 		},
 		"organizational-meeting": {
-			"title": "Spotkania Organizacyjne",
-			"p1": "Przed wyjazdem uczniowie uczestniczyli w cyklicznie organizowanych spotkaniach, których głownym tematem były sprawy związane z organizacją projektu oraz logistyką z nim związaną.",
-			"p2": "Na spotkaniach uczniowie byli informowani o procedurach związanych z projektem, przydziałem obowiązków dotyczących upowszechniania projektu (strona www, gablotka, ulotka, itp....)"
+			"title": "Organizational meetings",
+			"p1": "Before the trip, the students participated in regularly organized meetings, focusing on matters related to project tasks, its organization, and logistics",
+			"p2": "At the meetings, students were informed about project procedures, details regarding agreements, mobility program, and prepared themselves for fulfilling responsibilities during their stay in Spain and carrying out tasks related to documenting and disseminating the project (website, display case, etc.)."
 		},
 		"esmovia-preparations": {
-			"title": "Przygotowania ESMOVIA",
-			"p1": "Po przyjeździe do słonecznej Hiszpani zarówno uczniowie jak i opiekunowie uczesniczyli w spotkaniu zorganizowanym przez organizację przyjmującą ESMOVIA. Na spotkaniu uczniowie otrzymali informacje do jakich firm zostali przyjęci.",
-			"p2": "Odbył się także 4 godzinny kurs języka Hiszpańskiego, na którym uczniowie dodatkowo pogłębili zasób słownictwa."
+			"title": "ESMOVIA preparations",
+			"p1": "After arriving in sunny Valencia, the students, along with their supervisors, participated in a meeting with the organizers of internships at ESMOVIA company. During the meeting, the students received detailed information about their internship placements, training program, schedule, and the overall duration of the internship.",
+			"p2": "During their free time after the internships during their stay in Spain, the students participated in a 4-hour Spanish language course, which was a continuation of the remote course conducted on the ESMOVIA company platform prior to the trip, as well as Spanish language classes led by Ms. Karolina."
 		}
 	},
 	"culture": {
 		"city-tour": {
-			"title": "Zwiedzanie miasta",
-			"p1": "Pierwszego dnia wolnego uczniowie wybrali się ze swoim przewodnikiem na spacer po Walencji, zabierając ich do najważniejszych i najciekawszych miejsc regionu. Odwiedzili także muzeum archeologiczne, w którym znajdują się pozostałości najstarszego budynku w Walencji. "
+			"title": "City tour",
+			"p1": "After arrival, the students, accompanied by their supervisors, visited the center of Valencia under the guidance of a Spanish guide. They visited the archaeological museum, which houses remains of the oldest building in Valencia. During the rest of their stay, they had a wonderful opportunity to explore the main attractions of Valencia."
 		},
 		"bioparc": {
-			"title": "Biopark",
-			"p1": "Uczestnicy odwiedzili także lokalny biopark (10-hektarowe zoo) u podnóża koryta rzeki Turia. Uczestnicy mieli okazję zobaczyć dziką przyrodę z różnych części Afryki."
+			"title": "Bioparc",
+			"p1": "The participants visited Bioparc, a 10-hectare zoo located in the Turia Riverbed. They admired the wild nature from various parts of Africa."
 		},
 		"beach": {
-			"title": "Plaża",
-			"p1": "Jest czas na pracę i jest czas na odpoczynek. Wolny czas uczestnicy spędzali na plaży. Pobyt tam nastawiony był nie tylko na plażowanie, ale także na sport, siatkówkę i bieganie."
+			"title": "Beach",
+			"p1": "There is time for work and there is time for relaxation. Valencia is located by the Mediterranean Sea. During their free time, there was an opportunity to explore the nearby beaches, enjoy beach activities, as well as engage in sports and relax in the recreational areas along the Turia Riverbed."
 		},
 		"oceanographic": {
-			"title": "Oceanarium",
-			"p1": "Uczniowie zwiedzili oceanarium w Walencji, część kompleksu Miasta Sztuki i Nauki. Tam mogli spotkać morskie stworzenia z całego świata. Jedną z ciekawszych atrakcji był pokaz delfinów.​"
+			"title": "Oceanographic",
+			"p1": "The students visited the Oceanograhic in Valencia, which is part of the City of Arts and Sciences complex. There, they had the opportunity to see marine creatures from around the world. One of the most interesting attractions was a dolphin show."
 		},
 		"boat": {
 			"title": "Albufera",
-			"p1": "W następnym dniu wolnym uczniowie wraz z opiekunami wybrali się na rejs po jeziorze w Parku Narodowym Albufera. Przewodnik pokazał im najciekawsze jej części, a także opowiedział o pobliskiej uprawie ryżu na paellę, z której słynie Walencja. "
+			"p1": "On the following free day, the students, accompanied by their supervisors, went on a boat trip on the lake in Albufera National Park. The guide showed them the most interesting parts of the park and also talked about the nearby rice cultivation for paella, which Valencia is famous for."
 		},
 		"katamaran": {
-			"title": "Rejs katamaranem",
-			"p1": "Grupa miała również okazję przepłynąć łodzią Karamaran po morzu, podczas godzinnego rejsu zobaczyć wybrzeże Walencji z zupełnie innej perspektywy.​"
+			"title": "Cruise on Catamaran",
+			"p1": "The Polish group had the opportunity to sail on a Catamaran in the Mediterranean Sea. During the one-hour cruise, they saw the coastline of Valencia from a completely different perspective."
 		},
 		"stadium": {
-			"title": "Zwiedzanie stadionu",
-			"p1": "Kolejnym miejscem, które odwiedziła grupa był stadion Mestalla w Walencji. Tam poznali historię powstania miejsca spotkań wielu kibiców z całego regionu, a także jednej z najstarszych hiszpańskich drużyn – Valencii CF. ​"
+			"title": "Visiting a stadium",
+			"p1": "The next place that the students from ZSE visited was the Mestalla Stadium in Valencia. They learned about the history of this gathering place for many fans from the entire region, as well as one of the oldest Spanish teams, Valencia CF."
 		}
 	},
 	"institutions": {
 		"organizers-header": "Organizers",
-		"companies": "Hosting companies",
+		"companies": "Host companies",
 		"descriptions": {
-			"Zespół Szkół Elektronicznych w Rzeszowie": "ZSE",
-			"ESMOVIA Training and Mobility": "ESMOVIA Training and Mobility desc",
-			"Microarea Software": "Microarea Software desc",
-			"MD Equipos Tecnológicos": "MD Equipos Tecnológicos desc",
-			"Industa": "Industa desc",
-			"RELMS": "RELMS desc",
-			"IES Districte Marítim": "IES Districte Marítim desc",
-			"Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación": "Baukunst",
-			"Seymeval": "Seymeval desc",
-			"nadunet": "nadunet desc",
-			"OMMVI": "OMMVI desc",
-			"Goblue": "Goblue desc",
-			"Instituto Inter": "Instituto Inter desc"
+			"Zespół Szkół Elektronicznych w Rzeszowie": "Zespół Szkół Elektronicznych in Rzeszów is one of the best and largest secondary schools providing education in the fields of electronics and IT in southeastern Poland. It educates over 1000 students in three educational directions. The school has modern teaching workshops, its own TV studio, and a sports hall available for students. Zespół Szkół Elektronicznych in Rzeszów offers vocational training in the professions of automation technician, electronics technician, and IT technician.",
+			"ESMOVIA Training and Mobility": "ESMOVIA Training and Mobility organizes vocational internships and traineeships, preparing young people for them. It is precisely this organization that ensures our safe stay in sunny Valencia. Additionally, the company hired one of the students to support the IT department in server management and document creation, which have practical applications in certifying our international work.",
+			"Microarea Software": "MicroArea Software operates in the market of applications used by government offices and courts. The company hired four students from our school, and they were far from being idle. They were involved in renovating one of the employer's products to make it more user-friendly, which allowed them to gain comprehensive knowledge in the field of computer application design.",
+			"MD Equipos Tecnológicos": "MD Equipos Technologicos is a company that manufactures surge protection systems and plays a significant role in the technologies used in the railway sector. The interns had the opportunity not only to prepare the necessary components for electronic devices but also to assemble them so that they could later serve the company's clients.",
+			"Industa": "Industa is a massive company specializing in custom manufacturing of machines used in the construction of airplanes, submarines, and modern cars. Students had the opportunity to not only learn about industrial automation, but also gain knowledge in the construction of complex machines that require the efficient functioning of multiple systems simultaneously.",
+			"RELMS": "RELMS specializes in processing metal parts used in the production of both everyday cars and large industrial machinery. Interns familiarized themselves with operating CNC machines, as well as other metal processing methods utilizing the latest technological advancements in automation.",
+			"IES Districte Marítim": "IES Distrito Maritimo is a secondary school that is not afraid to embrace the latest technologies, such as 3D printers, laptops, and tablets. It is also well-equipped with power tools. The maintenance and efficiency of all these resources are taken care of by a student from ZSE, who oversees both the hardware and assists teachers during class exercises.",
+			"Baukunst Arquitectura y, Patrimonio Virtual SLU- Las, Naves Centro de Innovación": "Baukunst is a company specializing in the virtualization of monuments from around the world, including those from Rio de Janeiro. Our students were tasked with creating a website for their employer, which not only allows for the development of their skills but also enables the appreciation of their work results on the Internet in practical application.",
+			"Seymeval": "Seymeval S.L. manufactures distribution boards for electrical installations that meet all customer requirements. Two students participating in the internship as part of their education were responsible for verifying the correctness of electrical connections and assembly.",
+			"nadunet": "nadunet is not only an Internet service provider but also implements a government program supporting companies in developing their own websites and social media presence. The interns actively supported the company's employees by creating scripts and operating tools like WordPress, while also gaining insights into the intricacies of working in the corporate IT industry.",
+			"OMMVI": "OMMVI is a company specializing in repairing electric scooters. In this company, a student from the Electronic School Complex also had the opportunity to work with the electronics of these vehicles, gaining extraordinary knowledge about the construction of such a common means of transportation.",
+			"Goblue": "Goblue specializes in servicing electric scooters as well as bicycles. One of the technicians had the opportunity to familiarize themselves with the mechanical repairs of two-wheeled vehicles as well as work with the electronics incorporated in the scooters.",
+			"Instituto Inter": "Instituto Inter functions as a private vocational education center in the fields of medicine, technology, including future-oriented areas such as photovoltaic panels, and automotive mechanics. The interns ensured that everything was functioning properly by maintaining the computers at the facility and developing web applications to gain experience and expand their professional portfolios."
 		}
 	},
 	"gallery": {
@@ -123,6 +126,6 @@
 		"errorMsg": "The image cannot be loaded"
 	},
 	"footer": {
-		"projectCode": "Project UE  Erasmus+ no. 2022-1-PL01-KA121-VET-000061831"
+		"projectCode": "Project UE Erasmus+ no. 2022-1-PL01-KA121-VET-000061831"
 	}
 }

@@ -2,7 +2,7 @@ import autoAdapter from '@sveltejs/adapter-auto';
 import staticAdapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const languages = ['pl'];
+const languages = ['pl', 'en'];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

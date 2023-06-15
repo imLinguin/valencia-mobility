@@ -41,8 +41,8 @@
 			"projectCoordinator": "Koordynator projektu",
 			"workPlacementCoordinator": "Koordynator miejsc pracy",
 			"bhp": "bezpieczeństwo higiena pracy",
-			"english": "przygotowanie Język Angielski",
-			"spanish": "przygotowanie Język Hiszpański"
+			"english": "przygotowanie język angielski",
+			"spanish": "przygotowanie język hiszpański"
 		}
 	},
 	"preparations": {
@@ -50,40 +50,40 @@
 			"title": "Język Angielski",
 			"p1": "Przed wyjazdem uczniowie uczestniczyli w dodatkowych lekcjach języka angielskiego, dzięki którym przypominali sobie ważne sformuowania i słówka przydatne w codziennych sytuacjach.",
 			"p2": "Tematami były zarówno sytuacje codzienne na lotnisku, w sklepie, w restauracji. Jak i sytuacje w życiu zawodowym z głębokim zasobem słownictwa specjalistycznego.",
-			"p3": "Zajecia prowadzone były przez pana Grzegorza Wójcik."
+			"p3": "Zajecia prowadzone były przez nauczyciela języka angielskiego mgr Grzegorza Wójcika."
 		},
 		"spanish": {
-			"title": "Język Hiszpański",
-			"p1": "Uczniowe również mieli sposobność bliższego zapoznania się z kulturą Hiszpani i regionu Walencji na 10-cio godzinnych zajęciach przygotowania kulturowego oraz lekcji języka Hiszpańskiego",
-			"p2": "Zajęcia prowadzone były przez panią Karolinę Zgłębicką, która podzieliła się swoją wiedzą na temat kultury hiszpańskiej. Uczniowie również poznali podstawowe słownictwo pozwalające na zorientowanie się w terenie, zamówienie jedzenia czy na prostą rozmowę w języku hiszpańskim. Pani Karolina nie tylko przekazała powszechną wiedzę, lecz także podzieliła się swoimi doświadczeniami po pobycie w Hiszpani jak i cennymi wskazówkami."
+			"title": "Język Hiszpański i przygotowanie kulturowe",
+			"p1": "Uczniowe poznali podstawy języka hiszpańskiego oraz uczestniczyli w zajęciach przygotowania kulturowego dotyczącego Hiszpanii.",
+			"p2": "Zajęcia prowadzone były przez panią Karolinę Zgłębicką z Uniwersytetu Rzeszowskiego, która podzieliła się swoją wiedzą na temat kultury hiszpańskiej. Uczniowie poznali podstawowe słownictwo pozwalające na zorientowanie się w terenie, zamówienie jedzenia czy na prostą rozmowę w języku hiszpańskim. Pani Karolina podzieliła się swoimi doświadczeniami z pobytu w Hiszpani oraz cennymi wskazówkami ze swoich licznych podróży. Elementy przygotowania kulturowego prowadzili również nauczyciele ZSE."
 		},
 		"organizational-meeting": {
 			"title": "Spotkania Organizacyjne",
-			"p1": "Przed wyjazdem uczniowie uczestniczyli w cyklicznie organizowanych spotkaniach, których głownym tematem były sprawy związane z organizacją projektu oraz logistyką z nim związaną.",
-			"p2": "Na spotkaniach uczniowie byli informowani o procedurach związanych z projektem, przydziałem obowiązków dotyczących upowszechniania projektu (strona www, gablotka, ulotka, itp....)"
+			"p1": "Przed wyjazdem uczniowie uczestniczyli w cyklicznie organizowanych spotkaniach, których głownym tematem były sprawy związane z zadaniami w projekcie, jego organizacją i logistyką.",
+			"p2": "Na spotkaniach uczniowie byli informowani o procedurach w projekcie, szczegółach dotyczących umów, programu mobilności, przygotowywali się do wykonywania obowiązków podczas pobytu w Hiszpanii i realizacji zadań dotyczących dokumentowania i upowszechniania projektu (strona www, gablotka, ulotka, itp....)"
 		},
 		"esmovia-preparations": {
 			"title": "Przygotowania ESMOVIA",
-			"p1": "Po przyjeździe do słonecznej Hiszpani zarówno uczniowie jak i opiekunowie uczesniczyli w spotkaniu zorganizowanym przez organizację przyjmującą ESMOVIA. Na spotkaniu uczniowie otrzymali informacje do jakich firm zostali przyjęci.",
-			"p2": "Odbył się także 4 godzinny kurs języka Hiszpańskiego, na którym uczniowie dodatkowo pogłębili zasób słownictwa."
+			"p1": "Po przyjeździe do słonecznej Walencji, uczniowie wraz z opiekunami uczestniczyli w spotkaniu z organizatorami praktyk w firmie ESMOVIA. Na spotkaniu uczniowie otrzymali dokładne informacje na temat miejsc praktyk, programu i harmonogramu szkoleń i całego stażu.",
+			"p2": "W czasie wolnym po praktykach podczas pobytu w Hiszpanii uczniowie brali udział w 4 godzinnym kursie języka hiszpańskiego, który był kontynuacją zdalnego kursu prowadzonego na platformie firmy ESMOVIA przed wyjazdem, a także zajęć języka hiszpańskiego prowadzonych przez panią Karolinę."
 		}
 	},
 	"culture": {
 		"city-tour": {
 			"title": "Zwiedzanie miasta",
-			"p1": "Pierwszego dnia wolnego uczniowie wybrali się ze swoim przewodnikiem na spacer po Walencji, zabierając ich do najważniejszych i najciekawszych miejsc regionu. Odwiedzili także muzeum archeologiczne, w którym znajdują się pozostałości najstarszego budynku w Walencji. "
+			"p1": "Po przyjeździe uczniowie z opiekunami zwiedzili centrum Walencji pod kierunkiem hiszpańskiego przewodnika. Odwiedzili muzeum archeologiczne, w którym znajdują się pozostałości najstarszego budynku w Walencji. Podczas daleszego pobytu mieli wspaniałą okazję do poznania głownych atrakcji Walencji."
 		},
 		"bioparc": {
-			"title": "Biopark",
-			"p1": "Uczestnicy odwiedzili także lokalny biopark (10-hektarowe zoo) u podnóża koryta rzeki Turia. Uczestnicy mieli okazję zobaczyć dziką przyrodę z różnych części Afryki."
+			"title": "Bioparc",
+			"p1": "Uczestnicy zwiedzili Bioparc (10-hektarowe zoo) zlokalizowany w korycie rzeki Turia. Podziwiali dziką przyrodę z różnych części Afryki."
 		},
 		"beach": {
 			"title": "Plaża",
-			"p1": "Jest czas na pracę i jest czas na odpoczynek. Wolny czas uczestnicy spędzali na plaży. Pobyt tam nastawiony był nie tylko na plażowanie, ale także na sport, siatkówkę i bieganie."
+			"p1": "Jest czas na pracę i jest czas na odpoczynek. Walencja jest położona nad Morzem Śródziemnym. W czasie wolnym była więc okazja do poznania plaż zlokalizowanych w pobliżu, plażowania, a także uprawiania sportu i odpoczynku na terenach rekreacyjnych w korycie rzeki Turii."
 		},
 		"oceanographic": {
 			"title": "Oceanarium",
-			"p1": "Uczniowie zwiedzili oceanarium w Walencji, część kompleksu Miasta Sztuki i Nauki. Tam mogli spotkać morskie stworzenia z całego świata. Jedną z ciekawszych atrakcji był pokaz delfinów.​"
+			"p1": "Uczniowie zwiedzili oceanarium w Walencji, część kompleksu Miasta Sztuki i Nauki. Tam mogli zobaczyć morskie stworzenia z całego świata. Jedną z ciekawszych atrakcji był pokaz delfinów."
 		},
 		"boat": {
 			"title": "Albufera",
@@ -91,11 +91,11 @@
 		},
 		"katamaran": {
 			"title": "Rejs katamaranem",
-			"p1": "Grupa miała również okazję przepłynąć łodzią Karamaran po morzu, podczas godzinnego rejsu zobaczyć wybrzeże Walencji z zupełnie innej perspektywy.​"
+			"p1": "Polska grupa miała okazję przepłynąć katamaranem po Morzu Śródziemnym. Podczas godzinnego rejsu zobaczyli wybrzeże Walencji z całkiem innej perspektywy."
 		},
 		"stadium": {
 			"title": "Zwiedzanie stadionu",
-			"p1": "Kolejnym miejscem, które odwiedziła grupa był stadion Mestalla w Walencji. Tam poznali historię powstania miejsca spotkań wielu kibiców z całego regionu, a także jednej z najstarszych hiszpańskich drużyn – Valencii CF. ​"
+			"p1": "Kolejnym miejscem, które odwiedzili uczniowie ZSE był stadion Mestalla w Walencji. Poznali historię powstania miejsca spotkań wielu kibiców z całego regionu, a także jednej z najstarszych hiszpańskich drużyn – Valencii CF."
 		}
 	},
 	"institutions": {

@@ -41,7 +41,8 @@ const participants: {
 			image: '/images/people/tutors/3.webp'
 		},
 		{
-			name: 'mgr Elżbieta Czech'
+			name: 'mgr Elżbieta Czech',
+			image: '/images/people/tutors/5.webp'
 		},
 		{
 			name: 'mgr inż. Robert Kasza',
@@ -52,7 +53,8 @@ const participants: {
 			image: '/images/people/tutors/1.webp'
 		},
 		{
-			name: 'mgr Grzegorz Wójcik'
+			name: 'mgr Grzegorz Wójcik',
+			image: '/images/people/tutors/4.webp'
 		}
 	]
 };

@@ -49,7 +49,7 @@
 	const preparations = [
 		`mgr inż. Mieczysław Czyż - ${$t('participants.positions.bhp')}`,
 		`mgr Grzegorz Wójcik - ${$t('participants.positions.english')}`,
-		`Karolinę Zgłębicka - ${$t('participants.positions.spanish')}`
+		`Karolina Zgłębicka - ${$t('participants.positions.spanish')}`
 	];
 
 	// .sort((a, b) =>
