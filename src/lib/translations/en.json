@@ -10,21 +10,21 @@
 		},
 		"about-project": {
 			"title": "About Project",
-			"p1": "Projekt UE Erasmus+ nr 2022-1-PL01-KA121-VET-000061831 ukierunkowany jest na potrzeby zwiększenia szans zatrudnienia absolwentów Zespołu Szkół Elektronicznych. Celem projektu jest kształtowanie zawodowych i społecznych postaw uczniów ZSE w obszarze europejskim w tym dostosowanie szkoleń zawodowych do obecnych wymagań rynku pracy oraz podniesienie efektywności szkolenia zawodowego poprzez szkolenia zawodowe nauczycieli przedmiotów informatycznych i elektronicznych w zagranicznych instytucjach szkoleniowych i firmach.",
-			"p2": "W ramach projektu 22 uczniów Zespołu Szkół Elektronicznych w Rzeszowie odbędzie 3 tygodniową praktykę zawodowa w instytucjach szkoleniowych i firmach w sektorze IT, elektroniki i automatyki w hiszpańskich zakładach pracy.",
-			"p3": "Celem projektu jest zapoznanie z hiszpańskim system kształcenia, zapoznanie ze strukturą organizacyjną firm zatrudniających specjalistów w branży elektronicznej i informatycznej, doskonalenie umiejętności językowych, wymiana doświadczeń z innymi trenerami w dziedzinie szkolnictwa zawodowego, zapoznanie z organizacją zewnętrznych egzaminów zawodowych, z treścią programową przedmiotów zawodowych, innowacyjnymi metodami i technikami prowadzenia szkoleń zawodowych, a także zapoznanie ze środkami dydaktycznymi i sposobami ich wykorzystania w procesie kształcenia.",
-			"p4": "Praktyki dla uczniów będą organizowane w firmach i instytucjach, które posiadają już doświadczenie w szkoleniu specjalistów z zakresu współczesnych technologii oraz przeprowadzaniu wymiany i stażu w ramach projektów UE. 22-osobowej grupie uczniów będzie towarzyszyć 2 nauczycieli/opiekunów.",
-			"p5": "Uczniowie odbywający praktykę zagraniczną w ramach projektu zdobędą wiedzę oraz cenne, poszukiwane i wymagane przez pracodawców doświadczenie, które stanie się ważnym atutem w znalezieniu pracy w naszym regionie."
+			"p1": "Erasmus+ project no. 2022-1-PL01-KA121-VET-000061831 is aimed at enhancing the employment prospects of graduates from the Electronics School Team. The project's objective is to shape the professional and social attitudes of ZSE students in the European context, including adapting vocational training to the current demands of the job market. Additionally, it aims to increase the effectiveness of vocational training by providing professional development opportunities for teachers of IT and electronics subjects in foreign educational institutions and companies.",
+			"p2": "As part of the project, 22 students from Zespół Szkół Elektronicznych in Rzeszów will undertake a 3-week vocational internship in training institutions and companies in the IT, electronics, and automation sectors at Spanish workplaces.",
+			"p3": "The goal of the project is to familiarize participants with the Spanish education system, introduce them to the organizational structure of companies employing professionals in the electronics and IT industry, enhance language skills, exchange experiences with other trainers in the field of vocational education, introduce them to the organization of external professional exams, explore the content of vocational subjects, innovative methods, and techniques of vocational training, as well as acquaint them with educational resources and methods of their utilization in the learning process.",
+			"p4": "The treineeships for students will be organized in companies and institutions that already have experience in training specialists in contemporary technologies and conducting exchanges and internships within EU projects. The group of 22 students will be accompanied by 2 teachers/supervisors.",
+			"p5": "Students participating in the international internship within the project will gain knowledge and valuable, sought-after, and employer-required experience, which will become an important asset in finding employment in our region."
 		},
 		"project-goals": {
 			"title": "Project Goals",
-			"item1": "Zwiększenie mobilności oraz doświadczenia zawodowego uczniów z ZSE poprzez udział w 3-tygodniowych zagranicznych praktykach zawodowych z elektroniki, informatyki i automatyki.",
-			"item2": "Poprawa kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości języków obcych uczniów ZSE w trakcie przygotowania do mobilności i podczas stażu za granicą.",
-			"item3": "Rozwój zawodowy kadry ZSE poprzez przygotowanie organizacyjno-merytoryczne i udział nauczycieli przedmiotów zawodowych w zagranicznych szkoleniach.",
-			"item4": "Wzmocnienie kompetencji kluczowych i umiejętności ogólnych, w szczególności znajomości języków obcych nauczycieli ZSE poprzez przygotowanie i udział w zagranicznym stażu zawodowym.",
-			"item5": "Wspieranie jakości, transparentności i uznawania efektów uczenia się uczniów i nauczycieli ZSE w okresach mobilności za granicą przy wykorzystaniu europejskich narzędzi.",
-			"item6": "Kontynuacja i rozwój bezpośredniej współpracy ZSE z europejskimi instytucjami szkolenia zawodowego w zakresie realizacji wysokiej jakości projektów mobilności i doskonalenia procesu kształcenia.",
-			"item7": "Poprawa wyników egzaminu z przygotowania zawodowego w Zespole Szkół Elektronicznych w Rzeszowie."
+			"item1": "Increasing the mobility and professional experience of students from ZSE through their participation in 3-week international vocational internships in the fields of electronics, computer science, and automation.",
+			"item2": "Improving key competencies and general skills, particularly foreign language proficiency, of ZSE students during their preparation for mobility and throughout their international internships.",
+			"item3": "Professional development of ZSE staff through organizational and substantive preparation, as well as the participation of vocational subject teachers in international training programs.",
+			"item4": "Strengthening key competencies and general skills, particularly foreign language proficiency, of ZSE teachers through preparation for and participation in international professional internships.",
+			"item5": "Supporting the quality, transparency, and recognition of learning outcomes for students and teachers from ZSE during periods of mobility abroad, using European tools.",
+			"item6": "Continuation and development of direct cooperation between ZSE and European vocational training institutions in the implementation of high-quality mobility projects and the improvement of the educational process.",
+			"item7": "Improving the results of the vocational preparation exam at Zespół Szkół Elektronicznych in Rzeszów."
 		}
 	},
 	"nav": {
